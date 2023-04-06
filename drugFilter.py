@@ -15,11 +15,9 @@ mapDataFile = open("map source data\\"+YEAR + "\\" +DRUG + ".csv", "w")
 mapDataFile.write("state,state_fips,zip_code,brnd_name,gnrc_name,totl_day_sply,totl_drg_cost\n")
 print("creating drug-map data")
 for line in drugSourceFile:
-    fullLine = line
     line = line.split(",")
-    # print(line[47])
     test = line[9].replace("\"","")
-    if(test == DRUG):
+    if(test == DRUG and len(line[4])==2):
         try:
             doctorLine = doctorDictionary[line[0]].split(",")
             zipCode = doctorLine[2].replace("\n","")
