@@ -1,5 +1,6 @@
 YEAR = "2020"
 DRUG = "Sertraline Hcl"
+DRUG_SOURCE_FILE_NAME = "Medicare_Part_D_Prescribers_by_Provider_and_Drug_2020"
 
 doctorDataFile = open("input data files\\NPPES doctors shortened.csv")
 doctorDictionary = dict()
@@ -10,7 +11,7 @@ for doctorLine in doctorDataFile:
 
 
 errorNumbers = []
-drugSourceFile = open("input data files\\Medicare_Part_D_Prescribers_by_Provider_and_Drug_2020.csv")
+drugSourceFile = open("input data files\\"+DRUG_SOURCE_FILE_NAME+".csv")
 mapDataFile = open("map source data\\"+YEAR + "\\" +DRUG + ".csv", "w")
 mapDataFile.write("state,state_fips,zip_code,brnd_name,gnrc_name,totl_day_sply,totl_drg_cost\n")
 print("creating drug-map data")
