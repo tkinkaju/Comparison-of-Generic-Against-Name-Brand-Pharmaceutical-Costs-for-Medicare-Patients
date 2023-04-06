@@ -22,6 +22,7 @@ for line in drugSourceFile:
         try:
             doctorLine = doctorDictionary[line[0]].split(",")
             zipCode = doctorLine[2].replace("\n","")
+            zipCode = zipCode[:6]+"\""
             mapDataFile.write(line[4]+","+line[5]+","+zipCode+","+line[8]+","+line[9]+","+line[12]+","+line[13]+"\n")
         except:
             errorNumbers.append(line[0])
