@@ -1,6 +1,8 @@
 YEAR = "2020"
-DRUG = "Sertraline Hcl"
+DRUG = "Hydrocodone"
 DRUG_SOURCE_FILE_NAME = "Medicare_Part_D_Prescribers_by_Provider_and_Drug_2020"
+DRUGNAME = DRUG
+# DRUGNAME = "Dextroamphetamine-Amphetamine"
 
 doctorDataFile = open("input data files\\NPPES doctors shortened.csv")
 doctorDictionary = dict()
@@ -12,7 +14,7 @@ for doctorLine in doctorDataFile:
 
 errorNumbers = []
 drugSourceFile = open("input data files\\"+DRUG_SOURCE_FILE_NAME+".csv")
-mapDataFile = open("map source data\\"+YEAR + "\\" +DRUG + ".csv", "w")
+mapDataFile = open("map source data\\"+YEAR + "\\" +DRUGNAME + ".csv", "w")
 mapDataFile.write("state,state_fips,zip_code,brnd_name,gnrc_name,totl_day_sply,totl_drg_cost\n")
 print("creating drug-map data")
 for line in drugSourceFile:
@@ -23,12 +25,14 @@ for line in drugSourceFile:
             doctorLine = doctorDictionary[line[0]].split(",")
             zipCode = doctorLine[2].replace("\n","")
             zipCode = zipCode[:6]+"\""
-            mapDataFile.write(line[4]+","+line[5]+","+zipCode+","+line[8]+","+line[9]+","+line[12]+","+line[13]+"\n")
+            if(len(line[8])==1):
+                mapDataFile.write(line[4]+","+line[5]+","+zipCode+","+line[9]+","+line[10]+","+line[13]+","+line[14]+"\n")
+            else:
+                mapDataFile.write(line[4]+","+line[5]+","+zipCode+","+line[8]+","+line[9]+","+line[12]+","+line[13]+"\n")
         except:
             errorNumbers.append(line[0])
 
-
-logFile = open("log files\\"+YEAR + "-" +DRUG + "-log.csv", "w")
+logFile = open("log files\\"+YEAR + "-" +DRUGNAME + "-log.csv", "w")
 print("creating log file")
 for number in errorNumbers:
     logFile.write(number + "\n")
