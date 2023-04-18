@@ -1,0 +1,401 @@
+state,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_total_day,gen_total_cost,gen_avg_cost
+AL,Humira,277048.0,64439906.41,232.59,Adalimumab,0,0,N/A
+AL,Lipitor,360.0,5523.6,15.34,Atorvastatin Calcium,58097308.0,11619203.9,0.2
+AL,Adderall,5863.0,52288.8,8.92,Dextroamphetamine/Amphetamine,0,0,N/A
+AL,Aricept,346.0,6179.93,17.86,Donepezil Hcl,6879069.0,2297453.06,0.33
+AL,Enbrel,159434.0,33297390.25,208.85,Etanercept,0,0,N/A
+AL,Zoloft,1692.0,30275.54,17.89,Sertraline Hcl,10651834.0,2000434.54,0.19
+AL,Trintellix,305153.0,4250143.32,13.93,Vortioxetine Hydrobromide,0,0,N/A
+AL,Ambien,2480.0,45174.67,18.22,Zolpidem Tartrate,5324934.0,1040119.74,0.2
+AK,Humira,23499.0,5831584.01,248.16,Adalimumab,0,0,N/A
+AK,Lipitor,6310.0,81597.3,12.93,Atorvastatin Calcium,4568548.0,1281577.54,0.28
+AK,Adderall,993.0,9828.67,9.9,Dextroamphetamine/Amphetamine,0,0,N/A
+AK,Aricept,0,0,N/A,Donepezil Hcl,168403.0,75324.27,0.45
+AK,Enbrel,7336.0,1504314.58,205.06,Etanercept,0,0,N/A
+AK,Zoloft,1032.0,18836.5,18.25,Sertraline Hcl,536529.0,150540.01,0.28
+AK,Trintellix,25250.0,337512.76,13.37,Vortioxetine Hydrobromide,0,0,N/A
+AK,Ambien,710.0,13409.16,18.89,Zolpidem Tartrate,271338.0,77379.88,0.29
+AZ,Humira,219087.0,51918361.73,236.98,Adalimumab,0,0,N/A
+AZ,Lipitor,3720.0,51951.48,13.97,Atorvastatin Calcium,75474552.0,15067108.3,0.2
+AZ,Adderall,6552.0,81558.48,12.45,Dextroamphetamine/Amphetamine,0,0,N/A
+AZ,Aricept,0,0,N/A,Donepezil Hcl,5804976.0,1906883.56,0.33
+AZ,Enbrel,176273.0,35841299.07,203.33,Etanercept,0,0,N/A
+AZ,Zoloft,1710.0,19992.85,11.69,Sertraline Hcl,12442742.0,2801549.44,0.23
+AZ,Trintellix,154745.0,2156594.9,13.94,Vortioxetine Hydrobromide,0,0,N/A
+AZ,Ambien,4860.0,93123.0,19.16,Zolpidem Tartrate,4634072.0,1102827.97,0.24
+AR,Humira,94046.0,21695247.86,230.69,Adalimumab,0,0,N/A
+AR,Lipitor,1770.0,24622.85,13.91,Atorvastatin Calcium,33873917.0,6310097.61,0.19
+AR,Adderall,1080.0,15047.41,13.93,Dextroamphetamine/Amphetamine,0,0,N/A
+AR,Aricept,0,0,N/A,Donepezil Hcl,3336830.0,962829.53,0.29
+AR,Enbrel,68200.0,14057205.42,206.12,Etanercept,0,0,N/A
+AR,Zoloft,1582.0,25506.43,16.12,Sertraline Hcl,7221428.0,1351071.46,0.19
+AR,Trintellix,98713.0,1420298.24,14.39,Vortioxetine Hydrobromide,0,0,N/A
+AR,Ambien,1050.0,20046.86,19.09,Zolpidem Tartrate,3758466.0,797923.7,0.21
+CA,Humira,1244632.0,265795094.93,213.55,Adalimumab,0,0,N/A
+CA,Lipitor,96117.0,643834.21,6.7,Atorvastatin Calcium,471460383.0,92805875.67,0.2
+CA,Adderall,193129.0,902936.33,4.68,Dextroamphetamine/Amphetamine,0,0,N/A
+CA,Aricept,3882.0,69468.35,17.89,Donepezil Hcl,29961789.0,9171190.63,0.31
+CA,Enbrel,976189.0,187055013.76,191.62,Etanercept,0,0,N/A
+CA,Zoloft,11734.0,192837.54,16.43,Sertraline Hcl,47873927.0,9659530.12,0.2
+CA,Trintellix,1621266.0,22736771.28,14.02,Vortioxetine Hydrobromide,0,0,N/A
+CA,Ambien,38059.0,731630.79,19.22,Zolpidem Tartrate,21977692.0,4861602.52,0.22
+CO,Humira,183682.0,40450562.74,220.22,Adalimumab,0,0,N/A
+CO,Lipitor,2790.0,39951.96,14.32,Atorvastatin Calcium,55672294.0,10960437.79,0.2
+CO,Adderall,24372.0,115013.09,4.72,Dextroamphetamine/Amphetamine,0,0,N/A
+CO,Aricept,360.0,6003.24,16.68,Donepezil Hcl,2716926.0,1034686.56,0.38
+CO,Enbrel,135492.0,25791823.45,190.36,Etanercept,0,0,N/A
+CO,Zoloft,390.0,8266.83,21.2,Sertraline Hcl,8447376.0,2128919.23,0.25
+CO,Trintellix,131605.0,1918349.68,14.58,Vortioxetine Hydrobromide,0,0,N/A
+CO,Ambien,2890.0,54888.46,18.99,Zolpidem Tartrate,3786576.0,930256.41,0.25
+CT,Humira,138756.0,33966784.88,244.8,Adalimumab,0,0,N/A
+CT,Lipitor,105767.0,1332883.78,12.6,Atorvastatin Calcium,50287371.0,11237858.58,0.22
+CT,Adderall,11841.0,103515.32,8.74,Dextroamphetamine/Amphetamine,0,0,N/A
+CT,Aricept,360.0,5940.84,16.5,Donepezil Hcl,3217329.0,1176484.62,0.37
+CT,Enbrel,105452.0,21045172.1,199.57,Etanercept,0,0,N/A
+CT,Zoloft,4880.0,65075.96,13.34,Sertraline Hcl,7854206.0,1874933.79,0.24
+CT,Trintellix,311933.0,4328344.1,13.88,Vortioxetine Hydrobromide,0,0,N/A
+CT,Ambien,11355.0,232525.08,20.48,Zolpidem Tartrate,3232334.0,974938.44,0.3
+DE,Humira,44432.0,10336971.44,232.65,Adalimumab,0,0,N/A
+DE,Lipitor,2610.0,32733.62,12.54,Atorvastatin Calcium,15217586.0,3467852.65,0.23
+DE,Adderall,1414.0,10316.29,7.3,Dextroamphetamine/Amphetamine,0,0,N/A
+DE,Aricept,0,0,N/A,Donepezil Hcl,701314.0,237895.42,0.34
+DE,Enbrel,29826.0,5923715.41,198.61,Etanercept,0,0,N/A
+DE,Zoloft,0,0,N/A,Sertraline Hcl,2286835.0,684635.39,0.3
+DE,Trintellix,49225.0,660040.11,13.41,Vortioxetine Hydrobromide,0,0,N/A
+DE,Ambien,1440.0,26074.67,18.11,Zolpidem Tartrate,939700.0,231185.76,0.25
+FL,Humira,894642.0,206912240.0,231.28,Adalimumab,0,0,N/A
+FL,Lipitor,39339.0,524638.85,13.34,Atorvastatin Calcium,296816400.0,56330300.94,0.19
+FL,Adderall,26786.0,318379.79,11.89,Dextroamphetamine/Amphetamine,0,0,N/A
+FL,Aricept,2786.0,46916.43,16.84,Donepezil Hcl,30035168.0,7892020.87,0.26
+FL,Enbrel,563159.0,114929912.24,204.08,Etanercept,0,0,N/A
+FL,Zoloft,7074.0,132610.97,18.75,Sertraline Hcl,50067712.0,8865483.67,0.18
+FL,Trintellix,925389.0,12820733.33,13.85,Vortioxetine Hydrobromide,0,0,N/A
+FL,Ambien,17588.0,355622.84,20.22,Zolpidem Tartrate,22466907.0,5290017.05,0.24
+GA,Humira,459520.0,108049916.29,235.14,Adalimumab,0,0,N/A
+GA,Lipitor,5145.0,72395.58,14.07,Atorvastatin Calcium,101279142.0,19350192.1,0.19
+GA,Adderall,28053.0,169392.86,6.04,Dextroamphetamine/Amphetamine,0,0,N/A
+GA,Aricept,364.0,6369.74,17.5,Donepezil Hcl,9962783.0,3582999.57,0.36
+GA,Enbrel,285984.0,57941635.53,202.6,Etanercept,0,0,N/A
+GA,Zoloft,3118.0,63410.99,20.34,Sertraline Hcl,18747349.0,3785576.43,0.2
+GA,Trintellix,390171.0,5465396.13,14.01,Vortioxetine Hydrobromide,0,0,N/A
+GA,Ambien,5703.0,111220.71,19.5,Zolpidem Tartrate,9239617.0,2102836.49,0.23
+HI,Humira,35097.0,7303831.63,208.1,Adalimumab,0,0,N/A
+HI,Lipitor,9795.0,143684.47,14.67,Atorvastatin Calcium,18206990.0,2944044.83,0.16
+HI,Adderall,3660.0,36871.91,10.07,Dextroamphetamine/Amphetamine,0,0,N/A
+HI,Aricept,0,0,N/A,Donepezil Hcl,1039174.0,301201.76,0.29
+HI,Enbrel,23044.0,4078757.81,177.0,Etanercept,0,0,N/A
+HI,Zoloft,330.0,3823.82,11.59,Sertraline Hcl,932441.0,166326.45,0.18
+HI,Trintellix,56005.0,796096.27,14.21,Vortioxetine Hydrobromide,0,0,N/A
+HI,Ambien,886.0,11308.32,12.76,Zolpidem Tartrate,563519.0,128529.61,0.23
+ID,Humira,73054.0,17060515.82,233.53,Adalimumab,0,0,N/A
+ID,Lipitor,660.0,8407.11,12.74,Atorvastatin Calcium,17963785.0,3689066.59,0.21
+ID,Adderall,3157.0,43032.31,13.63,Dextroamphetamine/Amphetamine,0,0,N/A
+ID,Aricept,0,0,N/A,Donepezil Hcl,1016121.0,335873.45,0.33
+ID,Enbrel,34632.0,7000458.46,202.14,Etanercept,0,0,N/A
+ID,Zoloft,0,0,N/A,Sertraline Hcl,3578202.0,690944.95,0.19
+ID,Trintellix,102427.0,1412790.96,13.79,Vortioxetine Hydrobromide,0,0,N/A
+ID,Ambien,2262.0,69204.31,30.59,Zolpidem Tartrate,1719652.0,330094.34,0.19
+IL,Humira,475899.0,109535790.83,230.17,Adalimumab,0,0,N/A
+IL,Lipitor,24501.0,340226.48,13.89,Atorvastatin Calcium,153982815.0,34237963.8,0.22
+IL,Adderall,13093.0,155656.63,11.89,Dextroamphetamine/Amphetamine,0,0,N/A
+IL,Aricept,374.0,5952.43,15.92,Donepezil Hcl,11354050.0,4104141.93,0.36
+IL,Enbrel,282923.0,57439035.69,203.02,Etanercept,0,0,N/A
+IL,Zoloft,4737.0,64212.78,13.56,Sertraline Hcl,23468982.0,5202549.49,0.22
+IL,Trintellix,306733.0,4417500.51,14.4,Vortioxetine Hydrobromide,0,0,N/A
+IL,Ambien,7405.0,169049.11,22.83,Zolpidem Tartrate,7125635.0,1620136.06,0.23
+IN,Humira,256983.0,62230022.83,242.16,Adalimumab,0,0,N/A
+IN,Lipitor,4409.0,60073.67,13.63,Atorvastatin Calcium,92987644.0,19765984.83,0.21
+IN,Adderall,7900.0,89689.95,11.35,Dextroamphetamine/Amphetamine,0,0,N/A
+IN,Aricept,0,0,N/A,Donepezil Hcl,7397712.0,2768789.64,0.37
+IN,Enbrel,175013.0,35090884.52,200.5,Etanercept,0,0,N/A
+IN,Zoloft,1806.0,26468.5,14.66,Sertraline Hcl,17570400.0,3854291.86,0.22
+IN,Trintellix,654800.0,9105473.53,13.91,Vortioxetine Hydrobromide,0,0,N/A
+IN,Ambien,3780.0,73001.99,19.31,Zolpidem Tartrate,5067911.0,1144434.29,0.23
+IA,Humira,95195.0,22086615.07,232.01,Adalimumab,0,0,N/A
+IA,Lipitor,12394.0,164135.98,13.24,Atorvastatin Calcium,43794761.0,7972080.6,0.18
+IA,Adderall,4662.0,66337.36,14.23,Dextroamphetamine/Amphetamine,0,0,N/A
+IA,Aricept,600.0,9407.8,15.68,Donepezil Hcl,3184137.0,1159810.02,0.36
+IA,Enbrel,45507.0,9215791.18,202.51,Etanercept,0,0,N/A
+IA,Zoloft,1592.0,34100.3,21.42,Sertraline Hcl,8708972.0,1722977.86,0.2
+IA,Trintellix,200692.0,2864012.55,14.27,Vortioxetine Hydrobromide,0,0,N/A
+IA,Ambien,2075.0,47105.07,22.7,Zolpidem Tartrate,2524561.0,687797.07,0.27
+KS,Humira,82490.0,19333740.92,234.38,Adalimumab,0,0,N/A
+KS,Lipitor,0,0,N/A,Atorvastatin Calcium,34096870.0,6286347.39,0.18
+KS,Adderall,3427.0,53852.74,15.71,Dextroamphetamine/Amphetamine,0,0,N/A
+KS,Aricept,0,0,N/A,Donepezil Hcl,3044878.0,986615.41,0.32
+KS,Enbrel,47090.0,9751268.4,207.08,Etanercept,0,0,N/A
+KS,Zoloft,3673.0,67362.04,18.34,Sertraline Hcl,7019950.0,1323494.71,0.19
+KS,Trintellix,157026.0,2198104.83,14.0,Vortioxetine Hydrobromide,0,0,N/A
+KS,Ambien,1357.0,32695.62,24.09,Zolpidem Tartrate,2535073.0,521189.21,0.21
+KY,Humira,263259.0,62431251.97,237.15,Adalimumab,0,0,N/A
+KY,Lipitor,2940.0,38807.72,13.2,Atorvastatin Calcium,59696722.0,12220310.67,0.2
+KY,Adderall,3720.0,43949.23,11.81,Dextroamphetamine/Amphetamine,0,0,N/A
+KY,Aricept,0,0,N/A,Donepezil Hcl,5678956.0,1889328.72,0.33
+KY,Enbrel,166134.0,33969743.7,204.47,Etanercept,0,0,N/A
+KY,Zoloft,1938.0,41972.16,21.66,Sertraline Hcl,13426098.0,2466607.99,0.18
+KY,Trintellix,328441.0,4562702.27,13.89,Vortioxetine Hydrobromide,0,0,N/A
+KY,Ambien,4380.0,83737.22,19.12,Zolpidem Tartrate,3875929.0,750229.72,0.19
+LA,Humira,236090.0,55483339.57,235.01,Adalimumab,0,0,N/A
+LA,Lipitor,1410.0,22278.21,15.8,Atorvastatin Calcium,56998246.0,10244988.11,0.18
+LA,Adderall,3749.0,52946.87,14.12,Dextroamphetamine/Amphetamine,0,0,N/A
+LA,Aricept,358.0,3928.49,10.97,Donepezil Hcl,4975167.0,1458024.94,0.29
+LA,Enbrel,103444.0,21250056.0,205.43,Etanercept,0,0,N/A
+LA,Zoloft,2446.0,37349.27,15.27,Sertraline Hcl,9474651.0,1802483.7,0.19
+LA,Trintellix,275690.0,3826682.57,13.88,Vortioxetine Hydrobromide,0,0,N/A
+LA,Ambien,2513.0,47378.99,18.85,Zolpidem Tartrate,4790118.0,948892.76,0.2
+ME,Humira,89350.0,20829392.41,233.12,Adalimumab,0,0,N/A
+ME,Lipitor,480.0,7467.52,15.56,Atorvastatin Calcium,21979644.0,6180109.12,0.28
+ME,Adderall,10122.0,133167.91,13.16,Dextroamphetamine/Amphetamine,0,0,N/A
+ME,Aricept,0,0,N/A,Donepezil Hcl,887490.0,357002.86,0.4
+ME,Enbrel,42304.0,8354878.31,197.5,Etanercept,0,0,N/A
+ME,Zoloft,750.0,9006.6,12.01,Sertraline Hcl,5920477.0,1467203.24,0.25
+ME,Trintellix,62961.0,879214.03,13.96,Vortioxetine Hydrobromide,0,0,N/A
+ME,Ambien,2522.0,48587.67,19.27,Zolpidem Tartrate,1017462.0,259444.21,0.25
+MD,Humira,173450.0,39397342.78,227.14,Adalimumab,0,0,N/A
+MD,Lipitor,3330.0,47699.55,14.32,Atorvastatin Calcium,59300739.0,13694461.63,0.23
+MD,Adderall,23448.0,113434.41,4.84,Dextroamphetamine/Amphetamine,0,0,N/A
+MD,Aricept,0,0,N/A,Donepezil Hcl,3691206.0,1471186.96,0.4
+MD,Enbrel,101727.0,19727503.69,193.93,Etanercept,0,0,N/A
+MD,Zoloft,780.0,9528.99,12.22,Sertraline Hcl,9637218.0,2129058.51,0.22
+MD,Trintellix,192695.0,2706984.55,14.05,Vortioxetine Hydrobromide,0,0,N/A
+MD,Ambien,6836.0,142604.11,20.86,Zolpidem Tartrate,3415887.0,783951.93,0.23
+MA,Humira,484928.0,112873823.3,232.76,Adalimumab,0,0,N/A
+MA,Lipitor,22339.0,315234.34,14.11,Atorvastatin Calcium,98920037.0,22005639.91,0.22
+MA,Adderall,42163.0,514669.02,12.21,Dextroamphetamine/Amphetamine,0,0,N/A
+MA,Aricept,0,0,N/A,Donepezil Hcl,5825360.0,2147404.93,0.37
+MA,Enbrel,322669.0,64541782.67,200.02,Etanercept,0,0,N/A
+MA,Zoloft,8346.0,155688.06,18.65,Sertraline Hcl,19250959.0,3929556.87,0.2
+MA,Trintellix,360828.0,4994270.86,13.84,Vortioxetine Hydrobromide,0,0,N/A
+MA,Ambien,17090.0,359929.48,21.06,Zolpidem Tartrate,4926179.0,1036925.14,0.21
+MI,Humira,610215.0,137422139.37,225.2,Adalimumab,0,0,N/A
+MI,Lipitor,182833.0,2351553.92,12.86,Atorvastatin Calcium,141996203.0,38939260.99,0.27
+MI,Adderall,21850.0,279313.45,12.78,Dextroamphetamine/Amphetamine,0,0,N/A
+MI,Aricept,0,0,N/A,Donepezil Hcl,9805654.0,3735617.36,0.38
+MI,Enbrel,484872.0,94547066.4,194.99,Etanercept,0,0,N/A
+MI,Zoloft,13210.0,171960.03,13.02,Sertraline Hcl,24755438.0,5607838.33,0.23
+MI,Trintellix,795429.0,11002002.35,13.83,Vortioxetine Hydrobromide,0,0,N/A
+MI,Ambien,5914.0,124225.78,21.01,Zolpidem Tartrate,6389457.0,1203059.96,0.19
+MN,Humira,168207.0,39863812.28,236.99,Adalimumab,0,0,N/A
+MN,Lipitor,2884.0,33506.88,11.62,Atorvastatin Calcium,69260929.0,15721525.93,0.23
+MN,Adderall,26884.0,295193.69,10.98,Dextroamphetamine/Amphetamine,0,0,N/A
+MN,Aricept,589.0,16499.21,28.01,Donepezil Hcl,4308193.0,1541499.75,0.36
+MN,Enbrel,117533.0,23804401.91,202.53,Etanercept,0,0,N/A
+MN,Zoloft,3932.0,83071.07,21.13,Sertraline Hcl,14600304.0,3155183.19,0.22
+MN,Trintellix,194673.0,2811340.21,14.44,Vortioxetine Hydrobromide,0,0,N/A
+MN,Ambien,4712.0,121316.32,25.75,Zolpidem Tartrate,3223889.0,877481.79,0.27
+MS,Humira,141836.0,33552728.68,236.56,Adalimumab,0,0,N/A
+MS,Lipitor,1350.0,16816.18,12.46,Atorvastatin Calcium,30360756.0,5712942.84,0.19
+MS,Adderall,1259.0,18097.26,14.37,Dextroamphetamine/Amphetamine,0,0,N/A
+MS,Aricept,0,0,N/A,Donepezil Hcl,3965676.0,1130631.05,0.29
+MS,Enbrel,76615.0,15888022.43,207.37,Etanercept,0,0,N/A
+MS,Zoloft,390.0,14129.96,36.23,Sertraline Hcl,6060595.0,1074112.47,0.18
+MS,Trintellix,222280.0,3157907.21,14.21,Vortioxetine Hydrobromide,0,0,N/A
+MS,Ambien,720.0,14112.36,19.6,Zolpidem Tartrate,2792699.0,468040.59,0.17
+MO,Humira,259605.0,62866042.37,242.16,Adalimumab,0,0,N/A
+MO,Lipitor,19655.0,250667.36,12.75,Atorvastatin Calcium,81122924.0,15195870.12,0.19
+MO,Adderall,8760.0,80009.99,9.13,Dextroamphetamine/Amphetamine,0,0,N/A
+MO,Aricept,360.0,6133.8,17.04,Donepezil Hcl,7077738.0,2381877.05,0.34
+MO,Enbrel,134231.0,27821894.23,207.27,Etanercept,0,0,N/A
+MO,Zoloft,2226.0,38905.44,17.48,Sertraline Hcl,16087143.0,3360926.12,0.21
+MO,Trintellix,595739.0,8360020.57,14.03,Vortioxetine Hydrobromide,0,0,N/A
+MO,Ambien,3261.0,61366.2,18.82,Zolpidem Tartrate,5996370.0,1375681.59,0.23
+MT,Humira,52778.0,12812364.84,242.76,Adalimumab,0,0,N/A
+MT,Lipitor,0,0,N/A,Atorvastatin Calcium,10986020.0,2236909.14,0.2
+MT,Adderall,3908.0,54940.46,14.06,Dextroamphetamine/Amphetamine,0,0,N/A
+MT,Aricept,0,0,N/A,Donepezil Hcl,688379.0,212933.1,0.31
+MT,Enbrel,36299.0,7365363.19,202.91,Etanercept,0,0,N/A
+MT,Zoloft,720.0,6294.84,8.74,Sertraline Hcl,2209568.0,398862.9,0.18
+MT,Trintellix,38031.0,550109.77,14.46,Vortioxetine Hydrobromide,0,0,N/A
+MT,Ambien,360.0,6966.12,19.35,Zolpidem Tartrate,954754.0,188620.08,0.2
+NE,Humira,40393.0,9536923.07,236.1,Adalimumab,0,0,N/A
+NE,Lipitor,8947.0,106032.81,11.85,Atorvastatin Calcium,22566119.0,4330896.41,0.19
+NE,Adderall,2780.0,27610.34,9.93,Dextroamphetamine/Amphetamine,0,0,N/A
+NE,Aricept,0,0,N/A,Donepezil Hcl,1878329.0,686383.87,0.37
+NE,Enbrel,32958.0,6535675.17,198.3,Etanercept,0,0,N/A
+NE,Zoloft,968.0,16088.87,16.62,Sertraline Hcl,4470678.0,934599.44,0.21
+NE,Trintellix,109646.0,1544801.34,14.09,Vortioxetine Hydrobromide,0,0,N/A
+NE,Ambien,1470.0,28134.82,19.14,Zolpidem Tartrate,1583317.0,412237.07,0.26
+NV,Humira,74888.0,16972783.99,226.64,Adalimumab,0,0,N/A
+NV,Lipitor,1230.0,18333.22,14.91,Atorvastatin Calcium,34729142.0,5889490.31,0.17
+NV,Adderall,1479.0,13591.82,9.19,Dextroamphetamine/Amphetamine,0,0,N/A
+NV,Aricept,0,0,N/A,Donepezil Hcl,2317028.0,657242.9,0.28
+NV,Enbrel,41329.0,8365071.89,202.4,Etanercept,0,0,N/A
+NV,Zoloft,2345.0,34603.28,14.76,Sertraline Hcl,4005515.0,776402.51,0.19
+NV,Trintellix,47440.0,655653.02,13.82,Vortioxetine Hydrobromide,0,0,N/A
+NV,Ambien,689.0,12741.5,18.49,Zolpidem Tartrate,2202361.0,481249.06,0.22
+NH,Humira,71248.0,16239486.88,227.93,Adalimumab,0,0,N/A
+NH,Lipitor,1282.0,17166.75,13.39,Atorvastatin Calcium,18297004.0,4397063.5,0.24
+NH,Adderall,5358.0,87880.14,16.4,Dextroamphetamine/Amphetamine,0,0,N/A
+NH,Aricept,0,0,N/A,Donepezil Hcl,1000931.0,398663.83,0.4
+NH,Enbrel,46208.0,9337183.63,202.07,Etanercept,0,0,N/A
+NH,Zoloft,1319.0,20824.08,15.79,Sertraline Hcl,3807586.0,910307.48,0.24
+NH,Trintellix,83903.0,1182650.69,14.1,Vortioxetine Hydrobromide,0,0,N/A
+NH,Ambien,2432.0,46286.59,19.03,Zolpidem Tartrate,1137349.0,300033.54,0.26
+NJ,Humira,289784.0,63871359.47,220.41,Adalimumab,0,0,N/A
+NJ,Lipitor,188792.0,2422811.35,12.83,Atorvastatin Calcium,107177940.0,21116468.09,0.2
+NJ,Adderall,19744.0,256905.14,13.01,Dextroamphetamine/Amphetamine,0,0,N/A
+NJ,Aricept,1050.0,17264.73,16.44,Donepezil Hcl,8137398.0,2832858.55,0.35
+NJ,Enbrel,273451.0,53274757.08,194.82,Etanercept,0,0,N/A
+NJ,Zoloft,20372.0,324199.14,15.91,Sertraline Hcl,15071166.0,3077584.82,0.2
+NJ,Trintellix,359066.0,4914587.01,13.69,Vortioxetine Hydrobromide,0,0,N/A
+NJ,Ambien,27705.0,521013.38,18.81,Zolpidem Tartrate,7702640.0,1877440.75,0.24
+NM,Humira,108284.0,23946112.3,221.14,Adalimumab,0,0,N/A
+NM,Lipitor,360.0,4089.0,11.36,Atorvastatin Calcium,18115324.0,4229873.94,0.23
+NM,Adderall,330.0,4564.89,13.83,Dextroamphetamine/Amphetamine,0,0,N/A
+NM,Aricept,0,0,N/A,Donepezil Hcl,1335365.0,513835.13,0.38
+NM,Enbrel,71362.0,14342592.05,200.98,Etanercept,0,0,N/A
+NM,Zoloft,1524.0,18587.83,12.2,Sertraline Hcl,3678143.0,906362.13,0.25
+NM,Trintellix,45691.0,623513.1,13.65,Vortioxetine Hydrobromide,0,0,N/A
+NM,Ambien,1800.0,47292.06,26.27,Zolpidem Tartrate,1133696.0,266243.16,0.23
+NY,Humira,924167.0,204722301.94,221.52,Adalimumab,0,0,N/A
+NY,Lipitor,128327.0,1698247.0,13.23,Atorvastatin Calcium,256300055.0,50771692.71,0.2
+NY,Adderall,41914.0,462156.9,11.03,Dextroamphetamine/Amphetamine,0,0,N/A
+NY,Aricept,4004.0,73476.99,18.35,Donepezil Hcl,19128305.0,6582908.67,0.34
+NY,Enbrel,652527.0,127579478.59,195.52,Etanercept,0,0,N/A
+NY,Zoloft,26791.0,443228.86,16.54,Sertraline Hcl,37948795.0,8249569.34,0.22
+NY,Trintellix,1305220.0,18059873.15,13.84,Vortioxetine Hydrobromide,0,0,N/A
+NY,Ambien,112712.0,2175164.32,19.3,Zolpidem Tartrate,17459672.0,4178100.34,0.24
+NC,Humira,528407.0,131066586.39,248.04,Adalimumab,0,0,N/A
+NC,Lipitor,13336.0,182787.67,13.71,Atorvastatin Calcium,121752183.0,24394916.45,0.2
+NC,Adderall,15256.0,166962.64,10.94,Dextroamphetamine/Amphetamine,0,0,N/A
+NC,Aricept,0,0,N/A,Donepezil Hcl,10772198.0,3569371.82,0.33
+NC,Enbrel,311889.0,63851859.68,204.73,Etanercept,0,0,N/A
+NC,Zoloft,6546.0,142433.78,21.76,Sertraline Hcl,25129369.0,5646856.31,0.22
+NC,Trintellix,642960.0,9118887.62,14.18,Vortioxetine Hydrobromide,0,0,N/A
+NC,Ambien,12704.0,234050.75,18.42,Zolpidem Tartrate,10194296.0,2428701.03,0.24
+ND,Humira,21181.0,4967356.06,234.52,Adalimumab,0,0,N/A
+ND,Lipitor,360.0,5776.68,16.05,Atorvastatin Calcium,8040586.0,1743409.81,0.22
+ND,Adderall,1530.0,19181.84,12.54,Dextroamphetamine/Amphetamine,0,0,N/A
+ND,Aricept,0,0,N/A,Donepezil Hcl,706399.0,253999.5,0.36
+ND,Enbrel,11968.0,2416457.61,201.91,Etanercept,0,0,N/A
+ND,Zoloft,660.0,8119.98,12.3,Sertraline Hcl,2376827.0,462674.34,0.19
+ND,Trintellix,29297.0,410749.6,14.02,Vortioxetine Hydrobromide,0,0,N/A
+ND,Ambien,1048.0,26540.75,25.33,Zolpidem Tartrate,486683.0,101248.92,0.21
+OH,Humira,473027.0,109090601.69,230.62,Adalimumab,0,0,N/A
+OH,Lipitor,8411.0,117889.82,14.02,Atorvastatin Calcium,173743390.0,40651757.42,0.23
+OH,Adderall,22266.0,261042.6,11.72,Dextroamphetamine/Amphetamine,0,0,N/A
+OH,Aricept,524.0,14598.58,27.86,Donepezil Hcl,13412229.0,5277783.71,0.39
+OH,Enbrel,286692.0,57736219.86,201.39,Etanercept,0,0,N/A
+OH,Zoloft,4327.0,73217.96,16.92,Sertraline Hcl,33151586.0,7046257.63,0.21
+OH,Trintellix,834816.0,11619214.09,13.92,Vortioxetine Hydrobromide,0,0,N/A
+OH,Ambien,8968.0,175249.67,19.54,Zolpidem Tartrate,8038394.0,1754283.95,0.22
+OK,Humira,151007.0,34738234.94,230.04,Adalimumab,0,0,N/A
+OK,Lipitor,1170.0,14164.37,12.11,Atorvastatin Calcium,37957795.0,8624421.85,0.23
+OK,Adderall,2080.0,20156.87,9.69,Dextroamphetamine/Amphetamine,0,0,N/A
+OK,Aricept,0,0,N/A,Donepezil Hcl,3672686.0,1374573.67,0.37
+OK,Enbrel,104866.0,21329128.31,203.39,Etanercept,0,0,N/A
+OK,Zoloft,645.0,7828.26,12.14,Sertraline Hcl,7381943.0,1515666.73,0.21
+OK,Trintellix,259333.0,3636412.56,14.02,Vortioxetine Hydrobromide,0,0,N/A
+OK,Ambien,2590.0,48534.47,18.74,Zolpidem Tartrate,3209524.0,682528.2,0.21
+OR,Humira,165997.0,36201743.98,218.09,Adalimumab,0,0,N/A
+OR,Lipitor,2670.0,31630.7,11.85,Atorvastatin Calcium,52611672.0,11036153.77,0.21
+OR,Adderall,21890.0,100881.9,4.61,Dextroamphetamine/Amphetamine,0,0,N/A
+OR,Aricept,0,0,N/A,Donepezil Hcl,3206797.0,1249074.44,0.39
+OR,Enbrel,99162.0,19356827.5,195.2,Etanercept,0,0,N/A
+OR,Zoloft,690.0,12499.5,18.12,Sertraline Hcl,8818922.0,2014245.48,0.23
+OR,Trintellix,81645.0,1155321.31,14.15,Vortioxetine Hydrobromide,0,0,N/A
+OR,Ambien,2280.0,38291.23,16.79,Zolpidem Tartrate,2651157.0,534049.71,0.2
+PA,Humira,610982.0,143951853.69,235.61,Adalimumab,0,0,N/A
+PA,Lipitor,104274.0,1370382.86,13.14,Atorvastatin Calcium,196347561.0,47740616.12,0.24
+PA,Adderall,28948.0,350543.25,12.11,Dextroamphetamine/Amphetamine,0,0,N/A
+PA,Aricept,780.0,12711.06,16.3,Donepezil Hcl,13488985.0,5622199.03,0.42
+PA,Enbrel,363575.0,72116179.67,198.35,Etanercept,0,0,N/A
+PA,Zoloft,17101.0,291839.79,17.07,Sertraline Hcl,38487988.0,8927169.85,0.23
+PA,Trintellix,674348.0,9295983.38,13.79,Vortioxetine Hydrobromide,0,0,N/A
+PA,Ambien,16646.0,313683.24,18.84,Zolpidem Tartrate,10402128.0,2250782.79,0.22
+RI,Humira,37250.0,8453727.04,226.95,Adalimumab,0,0,N/A
+RI,Lipitor,14129.0,192312.39,13.61,Atorvastatin Calcium,17586432.0,3510221.32,0.2
+RI,Adderall,3156.0,31788.19,10.07,Dextroamphetamine/Amphetamine,0,0,N/A
+RI,Aricept,0,0,N/A,Donepezil Hcl,1064076.0,383041.08,0.36
+RI,Enbrel,30920.0,6220856.6,201.19,Etanercept,0,0,N/A
+RI,Zoloft,330.0,8158.59,24.72,Sertraline Hcl,3618558.0,888931.28,0.25
+RI,Trintellix,44768.0,648492.33,14.49,Vortioxetine Hydrobromide,0,0,N/A
+RI,Ambien,2430.0,41081.28,16.91,Zolpidem Tartrate,962908.0,220156.92,0.23
+SC,Humira,305756.0,73968490.02,241.92,Adalimumab,0,0,N/A
+SC,Lipitor,144710.0,2162194.84,14.94,Atorvastatin Calcium,61295802.0,13854260.32,0.23
+SC,Adderall,5271.0,75689.69,14.36,Dextroamphetamine/Amphetamine,0,0,N/A
+SC,Aricept,3450.0,59343.42,17.2,Donepezil Hcl,5650812.0,2061728.78,0.36
+SC,Enbrel,120780.0,25021513.89,207.17,Etanercept,0,0,N/A
+SC,Zoloft,14467.0,206424.42,14.27,Sertraline Hcl,11118526.0,2397546.35,0.22
+SC,Trintellix,312678.0,4361730.61,13.95,Vortioxetine Hydrobromide,0,0,N/A
+SC,Ambien,12028.0,245217.81,20.39,Zolpidem Tartrate,6483255.0,1535434.98,0.24
+SD,Humira,29509.0,6803793.53,230.57,Adalimumab,0,0,N/A
+SD,Lipitor,0,0,N/A,Atorvastatin Calcium,8506566.0,1676935.53,0.2
+SD,Adderall,1144.0,18460.93,16.14,Dextroamphetamine/Amphetamine,0,0,N/A
+SD,Aricept,0,0,N/A,Donepezil Hcl,801060.0,287486.08,0.36
+SD,Enbrel,12026.0,2407548.85,200.2,Etanercept,0,0,N/A
+SD,Zoloft,0,0,N/A,Sertraline Hcl,2102545.0,381898.73,0.18
+SD,Trintellix,32827.0,472393.89,14.39,Vortioxetine Hydrobromide,0,0,N/A
+SD,Ambien,210.0,4027.8,19.18,Zolpidem Tartrate,657063.0,152785.01,0.23
+TN,Humira,385588.0,90681483.77,235.18,Adalimumab,0,0,N/A
+TN,Lipitor,6120.0,87132.99,14.24,Atorvastatin Calcium,82520886.0,17590074.2,0.21
+TN,Adderall,3292.0,28415.08,8.63,Dextroamphetamine/Amphetamine,0,0,N/A
+TN,Aricept,0,0,N/A,Donepezil Hcl,8715287.0,2967454.39,0.34
+TN,Enbrel,243544.0,49242074.97,202.19,Etanercept,0,0,N/A
+TN,Zoloft,2444.0,36267.63,14.84,Sertraline Hcl,18553898.0,4257990.34,0.23
+TN,Trintellix,537069.0,7456509.27,13.88,Vortioxetine Hydrobromide,0,0,N/A
+TN,Ambien,4320.0,80965.6,18.74,Zolpidem Tartrate,7051688.0,1522895.53,0.22
+TX,Humira,1012095.0,233039287.42,230.25,Adalimumab,0,0,N/A
+TX,Lipitor,9169.0,127467.74,13.9,Atorvastatin Calcium,259297080.0,47132579.22,0.18
+TX,Adderall,27805.0,360977.62,12.98,Dextroamphetamine/Amphetamine,0,0,N/A
+TX,Aricept,1620.0,34025.39,21.0,Donepezil Hcl,25278380.0,8497269.62,0.34
+TX,Enbrel,756181.0,152888546.97,202.19,Etanercept,0,0,N/A
+TX,Zoloft,10354.0,178948.94,17.28,Sertraline Hcl,42916718.0,8829233.16,0.21
+TX,Trintellix,999891.0,14040483.82,14.04,Vortioxetine Hydrobromide,0,0,N/A
+TX,Ambien,17455.0,380344.37,21.79,Zolpidem Tartrate,17490347.0,3928313.1,0.22
+UT,Humira,59182.0,13096491.48,221.29,Adalimumab,0,0,N/A
+UT,Lipitor,0,0,N/A,Atorvastatin Calcium,23098339.0,4172578.71,0.18
+UT,Adderall,3527.0,37244.94,10.56,Dextroamphetamine/Amphetamine,0,0,N/A
+UT,Aricept,0,0,N/A,Donepezil Hcl,1455917.0,416345.92,0.29
+UT,Enbrel,47934.0,9714486.76,202.66,Etanercept,0,0,N/A
+UT,Zoloft,0,0,N/A,Sertraline Hcl,4292239.0,1031841.15,0.24
+UT,Trintellix,74523.0,1041983.0,13.98,Vortioxetine Hydrobromide,0,0,N/A
+UT,Ambien,2280.0,51237.95,22.47,Zolpidem Tartrate,2968355.0,715756.02,0.24
+VT,Humira,38759.0,8762208.3,226.07,Adalimumab,0,0,N/A
+VT,Lipitor,2262.0,30850.54,13.64,Atorvastatin Calcium,7270872.0,1479892.22,0.2
+VT,Adderall,3627.0,62494.35,17.23,Dextroamphetamine/Amphetamine,0,0,N/A
+VT,Aricept,330.0,1207.63,3.66,Donepezil Hcl,479815.0,157231.9,0.33
+VT,Enbrel,22112.0,4267603.89,193.0,Etanercept,0,0,N/A
+VT,Zoloft,1610.0,26244.06,16.3,Sertraline Hcl,1858853.0,376141.7,0.2
+VT,Trintellix,16446.0,235775.39,14.34,Vortioxetine Hydrobromide,0,0,N/A
+VT,Ambien,1440.0,27704.36,19.24,Zolpidem Tartrate,487304.0,110666.05,0.23
+VA,Humira,236935.0,57924418.23,244.47,Adalimumab,0,0,N/A
+VA,Lipitor,16279.0,209251.72,12.85,Atorvastatin Calcium,84488758.0,18271078.31,0.22
+VA,Adderall,17912.0,133127.82,7.43,Dextroamphetamine/Amphetamine,0,0,N/A
+VA,Aricept,360.0,5837.43,16.22,Donepezil Hcl,6399269.0,2440775.88,0.38
+VA,Enbrel,154599.0,30898412.06,199.86,Etanercept,0,0,N/A
+VA,Zoloft,2490.0,49486.02,19.87,Sertraline Hcl,15455525.0,3341428.63,0.22
+VA,Trintellix,258461.0,3658899.72,14.16,Vortioxetine Hydrobromide,0,0,N/A
+VA,Ambien,7348.0,143335.62,19.51,Zolpidem Tartrate,5045981.0,1120716.33,0.22
+WA,Humira,252234.0,56171464.5,222.7,Adalimumab,0,0,N/A
+WA,Lipitor,1012.0,16824.93,16.63,Atorvastatin Calcium,78239071.0,16255205.31,0.21
+WA,Adderall,32570.0,158495.58,4.87,Dextroamphetamine/Amphetamine,0,0,N/A
+WA,Aricept,750.0,10439.48,13.92,Donepezil Hcl,4146561.0,1452869.61,0.35
+WA,Enbrel,175238.0,34367484.07,196.12,Etanercept,0,0,N/A
+WA,Zoloft,1444.0,28897.55,20.01,Sertraline Hcl,13428546.0,3230291.26,0.24
+WA,Trintellix,89035.0,1264724.26,14.2,Vortioxetine Hydrobromide,0,0,N/A
+WA,Ambien,3567.0,66494.07,18.64,Zolpidem Tartrate,3832892.0,857642.04,0.22
+WV,Humira,120348.0,27817072.42,231.14,Adalimumab,0,0,N/A
+WV,Lipitor,0,0,N/A,Atorvastatin Calcium,22345819.0,4402011.55,0.2
+WV,Adderall,2550.0,19105.92,7.49,Dextroamphetamine/Amphetamine,0,0,N/A
+WV,Aricept,0,0,N/A,Donepezil Hcl,2098765.0,667844.46,0.32
+WV,Enbrel,65818.0,13126959.66,199.44,Etanercept,0,0,N/A
+WV,Zoloft,360.0,6638.76,18.44,Sertraline Hcl,5851895.0,1098699.38,0.19
+WV,Trintellix,114541.0,1589640.03,13.88,Vortioxetine Hydrobromide,0,0,N/A
+WV,Ambien,1414.0,26926.14,19.04,Zolpidem Tartrate,1700025.0,354923.12,0.21
+WI,Humira,319720.0,74979947.79,234.52,Adalimumab,0,0,N/A
+WI,Lipitor,1140.0,17979.46,15.77,Atorvastatin Calcium,81903994.0,17192636.71,0.21
+WI,Adderall,18718.0,237108.46,12.67,Dextroamphetamine/Amphetamine,0,0,N/A
+WI,Aricept,0,0,N/A,Donepezil Hcl,5270160.0,1884025.54,0.36
+WI,Enbrel,154776.0,30938790.08,199.89,Etanercept,0,0,N/A
+WI,Zoloft,2886.0,42867.6,14.85,Sertraline Hcl,16647104.0,3998658.98,0.24
+WI,Trintellix,203514.0,2906851.29,14.28,Vortioxetine Hydrobromide,0,0,N/A
+WI,Ambien,9154.0,181043.69,19.78,Zolpidem Tartrate,4182842.0,1004769.7,0.24
+WY,Humira,18122.0,4635087.73,255.77,Adalimumab,0,0,N/A
+WY,Lipitor,360.0,4042.8,11.23,Atorvastatin Calcium,4356464.0,940227.08,0.22
+WY,Adderall,0,0,N/A,Dextroamphetamine/Amphetamine,0,0,N/A
+WY,Aricept,0,0,N/A,Donepezil Hcl,286857.0,114596.2,0.4
+WY,Enbrel,9398.0,1900651.8,202.24,Etanercept,0,0,N/A
+WY,Zoloft,390.0,4944.69,12.68,Sertraline Hcl,1002437.0,205709.08,0.21
+WY,Trintellix,12939.0,184224.84,14.24,Vortioxetine Hydrobromide,0,0,N/A
+WY,Ambien,0,0,N/A,Zolpidem Tartrate,416342.0,106352.7,0.26

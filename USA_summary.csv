@@ -1,0 +1,9 @@
+brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_total_day,gen_total_cost,gen_avg_cost
+Humira,13680787.0,3144927012.31,229.88,Adalimumab,0,0,N/A
+Lipitor,1263662.0,16275801.27,12.88,Atorvastatin Calcium,3997638714.0,829731171.69,0.21
+Adderall,768479.0,6760023.49,8.8,Dextroamphetamine/Amphetamine,0,0,N/A
+Aricept,26997.0,475285.32,17.61,Donepezil Hcl,316350569.0,106727254.5,0.34
+Enbrel,8961716.0,1788159653.22,199.53,Etanercept,0,0,N/A
+Zoloft,210104.0,3448043.17,16.41,Sertraline Hcl,681923282.0,144173469.34,0.21
+Trintellix,15821808.0,221126917.17,13.98,Vortioxetine Hydrobromide,0,0,N/A
+Ambien,405978.0,8033109.85,19.79,Zolpidem Tartrate,253011378.0,57198581.38,0.23
