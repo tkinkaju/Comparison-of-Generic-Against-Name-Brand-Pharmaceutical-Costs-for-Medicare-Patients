@@ -4,7 +4,7 @@ import os
 DRUG_FILE_NAMES = [ 'Adalimumab.csv', 'Atorvastatin Calcium.csv', 'Donepezil Hcl.csv',
                     'Etanercept.csv', 'Sertraline Hcl.csv', 'Vortioxetine Hydrobromide.csv', 'Zolpidem Tartrate.csv']
 
-BRAND_NAMES = [ 'Humira', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintellix', 'Ambien' ]
+BRAND_NAMES = [ 'Humira Pen', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintellix', 'Ambien' ]
 
 GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Donepezil Hcl',
                   'Etanercept', 'Sertraline Hcl', 'Vortioxetine Hydrobromide', 'Zolpidem Tartrate' ]
@@ -28,7 +28,7 @@ with open("states_summary.csv", "w", newline="") as output_file:
         print(state)
 
         drugIter = 0
-        for drug_file_name in DRUG_FILE_NAMES:   #Will run 8 times(one for each drug) for each state
+        for drug_file_name in DRUG_FILE_NAMES:   #Will run 7 times(one for each drug) for each state
             with open(f"map source data/2020/{drug_file_name}", "r") as file:
                 reader = csv.reader(file)
                 next(reader)
@@ -87,7 +87,7 @@ with open('states_summary.csv', newline='') as input_file:
             if not os.path.exists(directory_path):
                 os.makedirs(directory_path)
 
-            drug_file = open(os.path.join(directory_path, drug_type + ".csv"), "w")
+            drug_file = open(os.path.join(directory_path, drug_type + "_states_final.csv"), "w")
             writer = csv.DictWriter(drug_file, fieldnames=reader.fieldnames)
             writer.writeheader()
             drug_files[drug_type] = (drug_file, writer)

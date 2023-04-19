@@ -1,5 +1,5 @@
 brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_total_day,gen_total_cost,gen_avg_cost
-Humira,13680787.0,3144927012.31,229.88,Adalimumab,0,0,N/A
+Humira Pen,3946733.0,891440232.66,225.87,Adalimumab,0,0,N/A
 Lipitor,1263662.0,16275801.27,12.88,Atorvastatin Calcium,3997638714.0,829731171.69,0.21
 Aricept,26997.0,475285.32,17.61,Donepezil Hcl,316350569.0,106727254.5,0.34
 Enbrel,8961716.0,1788159653.22,199.53,Etanercept,0,0,N/A

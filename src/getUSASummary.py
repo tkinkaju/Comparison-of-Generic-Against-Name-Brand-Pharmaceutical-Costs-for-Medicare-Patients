@@ -4,7 +4,7 @@ import os
 DRUG_FILE_NAMES = [ 'Adalimumab.csv', 'Atorvastatin Calcium.csv', 'Donepezil Hcl.csv',
                     'Etanercept.csv', 'Sertraline Hcl.csv', 'Vortioxetine Hydrobromide.csv', 'Zolpidem Tartrate.csv']
 
-BRAND_NAMES = [ 'Humira', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintellix', 'Ambien' ]
+BRAND_NAMES = [ 'Humira Pen', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintellix', 'Ambien' ]
 
 GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Donepezil Hcl',
                   'Etanercept', 'Sertraline Hcl', 'Vortioxetine Hydrobromide', 'Zolpidem Tartrate' ]
@@ -31,13 +31,19 @@ with open("USA_summary.csv", "w", newline="") as output_file:
                     brnd_total_cost += float(row[1][6])
 
                 #Get avg cost per day for generic
-                if GENERIC_NAMES[iteration] in row[1][3]:
+                if GENERIC_NAMES[iteration] in row[1][3]: #Right now it is searching for Humira Pen(Above) and then Adalimumab
                     gen_total_days += float(row[1][5])
                     gen_total_cost += float(row[1][6])
 
             brnd_name = BRAND_NAMES[iteration]
             brnd_total_days = round(brnd_total_days, 2)
             brnd_total_cost = round(brnd_total_cost, 2)
+
+
+            print(brnd_name)
+            print( ": " )
+            print(brnd_total_days)
+
             if brnd_total_days != 0:
                 brnd_avg_cost = round(brnd_total_cost/brnd_total_days, 2)
             else:
@@ -46,6 +52,12 @@ with open("USA_summary.csv", "w", newline="") as output_file:
             gen_name = GENERIC_NAMES[iteration]
             gen_total_days = round(gen_total_days, 2)
             gen_total_cost = round(gen_total_cost, 2)
+
+
+            print(gen_name)
+            print( ": " )
+            print(gen_total_days)
+
             if gen_total_days != 0:
                 gen_avg_cost = round(gen_total_cost/gen_total_days, 2)
             else: 
@@ -72,7 +84,7 @@ with open('USA_summary.csv', newline='') as input_file:
             if not os.path.exists(directory_path):
                 os.makedirs(directory_path)
 
-            drug_file = open(os.path.join(directory_path, drug_type + ".csv"), "w")
+            drug_file = open(os.path.join(directory_path, drug_type + "_usa_final.csv"), "w")
             writer = csv.DictWriter(drug_file, fieldnames=reader.fieldnames)
             writer.writeheader()
             drug_files[drug_type] = (drug_file, writer)
