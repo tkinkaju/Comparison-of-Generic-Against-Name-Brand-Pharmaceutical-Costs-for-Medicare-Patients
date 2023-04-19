@@ -1,13 +1,13 @@
 import csv
 
-DRUG_FILE_NAMES = [ 'Adalimumab.csv', 'Atorvastatin Calcium.csv', 'Dextroamphetamine-Amphetamine.csv', 'Donepezil Hcl.csv',
+DRUG_FILE_NAMES = [ 'Adalimumab.csv', 'Atorvastatin Calcium.csv', 'Donepezil Hcl.csv',
                     'Etanercept.csv', 'Sertraline Hcl.csv', 'Vortioxetine Hydrobromide.csv', 'Zolpidem Tartrate.csv']
 
-BRAND_NAMES = [ 'Humira', 'Lipitor', 'Adderall?', 'NOT SURE?', 'Enbrel??', 'Zoloft?', 'Trintellix?', 'Ambien?' ]
+BRAND_NAMES = [ 'Humira', 'Lipitor', 'NOT SURE?', 'Enbrel??', 'Zoloft?', 'Trintellix?', 'Ambien?' ]
 #FOR HUMIRA--> contains others such as --> 'Humira Pen', 'Humira(Cf) Pen'
 #But maybe I could do .contains('Humira')?
 
-GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Dextroamphetamine/Amphetamine', 'Donepezil Hcl',
+GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Donepezil Hcl',
                   'Etanercept', 'Sertraline Hcl', 'Vortioxetine Hydrobromide', 'Zolpidem Tartrate' ]
 
 
