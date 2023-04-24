@@ -1,3 +1,13 @@
+"""
+getUSASummary.py reads data from multiple CSV files containing information about different drugs and calculates various metrics
+related to brand-name and generic versions of these drugs, including total days prescribed, total cost, average cost per day, and
+percentage of prescriptions for brand-name vs generic drugs. The calculated metrics are then written to a new CSV file called
+"USA_summary.csv". Then the code creates individual CSV files for each drug type (based on their generic name) and stores these in
+a new directory called "usaSummaries". Overall, the code aims to read in a large csv for each drug type, analyze the data, make
+calculations based off the data, and then create new csv's that contain only the relevant information to each drug type.
+
+"""
+
 import csv
 import os
 
@@ -15,7 +25,7 @@ with open("USA_summary.csv", "w", newline="") as output_file:
     writer = csv.writer(output_file)
     writer.writerow(['brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand'])
     for drug_file_name in DRUG_FILE_NAMES:
-        print( "Brand Name: " + str(BRAND_NAMES[iteration]) + "      Generic: " + str(GENERIC_NAMES[iteration]))
+        # print( "Brand Name: " + str(BRAND_NAMES[iteration]) + "      Generic: " + str(GENERIC_NAMES[iteration]))
         
         with open(f"map source data/2020/{drug_file_name}", "r") as file:
             reader = csv.reader(file)

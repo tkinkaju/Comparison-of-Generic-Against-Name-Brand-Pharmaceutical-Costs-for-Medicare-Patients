@@ -1,3 +1,14 @@
+"""
+getStatesSummary.py processes data from pharmaceutical sales of seven drugs in 50 US states for 2020. It reads seven CSV files
+containing pharmaceutical data for each drug, extracts the relevant data for each state and drug, and calculates the total
+days, total cost, and average cost per day for name brand and generic drugs separately. Then it calculates the percentage of
+name brand drugs sold in each state and writes all the calculated data for each state, drug, and drug type (name brand or
+generic) to a CSV file named states_summary.csv. Finally, the code creates a separate CSV file for each drug type containing
+the same data as in states_summary.csv, but only for that specific drug type. These drug-type-specific CSV files are saved in
+the "map source data/2020/statesSummaries" directory.
+
+"""
+
 import csv
 import os
 
@@ -25,7 +36,7 @@ with open("states_summary.csv", "w", newline="") as output_file:
         
     statesIter = 0
     for state in STATES:  #Will run 50 times
-        print(state)
+        # print(state)
 
         drugIter = 0
         for drug_file_name in DRUG_FILE_NAMES:   #Will run 7 times(one for each drug) for each state
