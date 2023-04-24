@@ -9,14 +9,6 @@ BRAND_NAMES = [ 'Humira Pen', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintel
 GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Donepezil Hcl',
                   'Etanercept', 'Sertraline Hcl', 'Vortioxetine Hydrobromide', 'Zolpidem Tartrate' ]
 
-'''
-STATES = [ 'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
-           'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
-           'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
-           'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
-           'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY' ]
-           '''
-
 class ZipCodeSummary():
 
     def __init__(self, code):
@@ -82,11 +74,11 @@ with open("zipcode_summary.csv", "w", newline="") as output_file:
                 drugSummary = zipData.getSummary(brandName)
 
                 if brandName in row[brdName]:
-                    drugSummary.brandTotalDays += float(row[daySup])
+                    drugSummary.brandTotalDays += int(row[daySup])
                     drugSummary.brandTotalCost += float(row[dayCst])
                 
                 if genericName in row[brdName]:
-                    drugSummary.genericTotalDays += float(row[daySup])
+                    drugSummary.genericTotalDays += int(row[daySup])
                     drugSummary.genericTotalCost += float(row[dayCst])
 
             drugIter += 1

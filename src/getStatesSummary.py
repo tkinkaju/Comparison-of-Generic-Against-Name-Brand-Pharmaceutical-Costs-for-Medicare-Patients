@@ -21,7 +21,7 @@ iteration = 0
 
 with open("states_summary.csv", "w", newline="") as output_file:
     writer = csv.writer(output_file)
-    writer.writerow(['state', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost'])
+    writer.writerow(['state', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand'])
         
     statesIter = 0
     for state in STATES:  #Will run 50 times
@@ -37,18 +37,18 @@ with open("states_summary.csv", "w", newline="") as output_file:
                 gen_total_days, gen_total_cost = 0, 0
 
                 for row in enumerate(reader):
-
                     #Get avg cost per day for name brand 
                     if (row[1][0] == STATES[statesIter] and BRAND_NAMES[drugIter] in row[1][3]):
-                        # print(row[1][3])
-                        brnd_total_days += float(row[1][5])
+                        brnd_total_days += int(row[1][5])
                         brnd_total_cost += float(row[1][6])
 
                     #Get avg cost per day for generic
                     if (row[1][0] == STATES[statesIter] and GENERIC_NAMES[drugIter] in row[1][3]):
-                        gen_total_days += float(row[1][5])
+                        gen_total_days += int(row[1][5])
                         gen_total_cost += float(row[1][6])
 
+                #Getting percent_brand
+                percent_brand = round(brnd_total_days / (brnd_total_days + gen_total_days), 6)
 
                 brnd_name = BRAND_NAMES[drugIter]
                 brnd_total_days = round(brnd_total_days, 2)
@@ -66,7 +66,7 @@ with open("states_summary.csv", "w", newline="") as output_file:
                 else: 
                     gen_avg_cost = "N/A"
 
-                writer.writerow([STATES[statesIter], brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost])
+                writer.writerow([STATES[statesIter], brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost, percent_brand])
                 drugIter += 1
         statesIter += 1
 
