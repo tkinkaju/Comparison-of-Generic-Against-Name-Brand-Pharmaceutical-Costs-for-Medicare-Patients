@@ -59,7 +59,7 @@ with open("states_summary.csv", "w", newline="") as output_file:
                         gen_total_cost += float(row[1][6])
 
                 #Getting percent_brand
-                percent_brand = round(brnd_total_days / (brnd_total_days + gen_total_days), 6)
+                percent_brand = round((brnd_total_days / (brnd_total_days + gen_total_days) * 100), 6)
 
                 brnd_name = BRAND_NAMES[drugIter]
                 brnd_total_days = round(brnd_total_days, 2)

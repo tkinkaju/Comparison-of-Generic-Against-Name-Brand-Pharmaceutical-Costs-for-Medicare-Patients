@@ -50,7 +50,7 @@ with open("USA_summary.csv", "w", newline="") as output_file:
             brnd_total_cost = round(brnd_total_cost, 2)
 
             #Getting percent_brand
-            percent_brand = round(brnd_total_days / (brnd_total_days + gen_total_days), 6)
+            percent_brand = round((brnd_total_days / (brnd_total_days + gen_total_days) * 100), 6)
 
             if brnd_total_days != 0:
                 brnd_avg_cost = round(brnd_total_cost/brnd_total_days, 2)
