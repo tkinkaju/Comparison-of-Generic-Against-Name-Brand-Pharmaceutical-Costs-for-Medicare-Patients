@@ -9,6 +9,30 @@ BRAND_NAMES = [ 'Humira Pen', 'Lipitor', 'Aricept', 'Enbrel', 'Zoloft', 'Trintel
 GENERIC_NAMES = [ 'Adalimumab', 'Atorvastatin Calcium', 'Donepezil Hcl',
                   'Etanercept', 'Sertraline Hcl', 'Vortioxetine Hydrobromide', 'Zolpidem Tartrate' ]
 
+'''
+STATES = [ 'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
+           'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
+           'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
+           'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
+           'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY' ]
+           '''
+
+ZIP_CODE_MAP = {}
+
+print('reading zipcodes into memory...')
+zipCount = 0
+with open('./src/zipCodeProcessing/US_ZIP_codes_to_longitude_and_latitude.csv', 'r') as zipCodeFile:
+    reader = csv.DictReader(zipCodeFile)
+    next(reader)
+
+    for row in reader:
+        code = str(row['Zip']).rjust(5, '0')
+
+        ZIP_CODE_MAP[code] = {'lat':row['Latitude'], 'lon':row['Longitude']}
+        zipCount += 1
+
+print(f'{zipCount} zip codes loaded')
+
 class ZipCodeSummary():
 
     def __init__(self, code):
@@ -41,6 +65,9 @@ class DrugSummary():
     
     def brandAvgCost(self):
         return  round(self.brandTotalCost / self.brandTotalDays, 2) if self.brandTotalDays != 0 else 'N/A'
+    
+    def percentBrand(self):
+        return  round(self.brandTotalDays / (self.brandTotalDays + self.genericTotalDays), 6) if (self.brandTotalDays + self.genericTotalDays) > 0 else 'N/A'
 
 zipCodeData = {}
 
@@ -49,7 +76,7 @@ csv_file_path = './src/zipCodeProcessing/US_ZIP_codes_to_longitude_and_latitude.
 
 with open("zipcode_summary.csv", "w", newline="") as output_file:
     writer_ = csv.writer(output_file)
-    writer_.writerow(['zipcode', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost'])
+    writer_.writerow(['zipcode', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand','lat', 'lon'])
 
     drugIter = 0
     for drug_file_name in DRUG_FILE_NAMES:   # run through each drug file
@@ -84,10 +111,12 @@ with open("zipcode_summary.csv", "w", newline="") as output_file:
             drugIter += 1
     
     for zipData in zipCodeData.values():
+        lat = ZIP_CODE_MAP[zipData.code]['lat'] if zipData.code in ZIP_CODE_MAP else 'N/A'
+        lon = ZIP_CODE_MAP[zipData.code]['lon'] if zipData.code in ZIP_CODE_MAP else 'N/A'
         for summary in zipData.drugs:
             writer_.writerow([zipData.code, summary.brandName, summary.brandTotalDays, round(summary.brandTotalCost, 2),
                                 summary.brandAvgCost(), summary.genericName, summary.genericTotalDays, 
-                                round(summary.genericTotalCost, 2), summary.genericAvgCost()])
+                                round(summary.genericTotalCost, 2), summary.genericAvgCost(), summary.percentBrand(), lat, lon])
 
 
 
