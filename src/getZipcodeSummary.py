@@ -67,7 +67,7 @@ class DrugSummary():
         return  round(self.brandTotalCost / self.brandTotalDays, 2) if self.brandTotalDays != 0 else 'N/A'
     
     def percentBrand(self):
-        return  round(self.brandTotalDays / (self.brandTotalDays + self.genericTotalDays), 6) if (self.brandTotalDays + self.genericTotalDays) > 0 else 'N/A'
+        return  round(self.brandTotalDays/ (self.brandTotalDays + self.genericTotalDays), 6) if (self.brandTotalDays + self.genericTotalDays) > 0 else 'N/A'
 
 zipCodeData = {}
 
