@@ -23,7 +23,7 @@ iteration = 0
 
 with open("USA_summary.csv", "w", newline="") as output_file:
     writer = csv.writer(output_file)
-    writer.writerow(['brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand'])
+    writer.writerow(['brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand', 'hypothetical_savings'])
     for drug_file_name in DRUG_FILE_NAMES:
         # print( "Brand Name: " + str(BRAND_NAMES[iteration]) + "      Generic: " + str(GENERIC_NAMES[iteration]))
         
@@ -49,7 +49,7 @@ with open("USA_summary.csv", "w", newline="") as output_file:
             brnd_total_days = round(brnd_total_days, 2)
             brnd_total_cost = round(brnd_total_cost, 2)
 
-            #Getting percent_brand
+            #Get percent_brand
             percent_brand = round((brnd_total_days / (brnd_total_days + gen_total_days) * 100), 6)
 
             if brnd_total_days != 0:
@@ -66,7 +66,13 @@ with open("USA_summary.csv", "w", newline="") as output_file:
             else: 
                 gen_avg_cost = "N/A"
 
-            writer.writerow([brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost, percent_brand])
+            #Get hypothetical_savings
+            if brnd_avg_cost != 'N/A' and gen_avg_cost != 'N/A':
+                hypothetical_savings = round((brnd_avg_cost - gen_avg_cost) * brnd_total_days, 2)
+            else: 
+                hypothetical_savings = 'N/A'
+
+            writer.writerow([brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost, percent_brand, hypothetical_savings])
             iteration += 1
 
 

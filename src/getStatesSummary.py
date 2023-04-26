@@ -32,7 +32,7 @@ iteration = 0
 
 with open("states_summary.csv", "w", newline="") as output_file:
     writer = csv.writer(output_file)
-    writer.writerow(['state', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand'])
+    writer.writerow(['state', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand', 'hypothetical_savings'])
         
     statesIter = 0
     for state in STATES:  #Will run 50 times
@@ -77,7 +77,13 @@ with open("states_summary.csv", "w", newline="") as output_file:
                 else: 
                     gen_avg_cost = "N/A"
 
-                writer.writerow([STATES[statesIter], brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost, percent_brand])
+                #Get hypothetical_savings
+                if brnd_avg_cost != 'N/A' and gen_avg_cost != 'N/A':
+                    hypothetical_savings = round((brnd_avg_cost - gen_avg_cost) * brnd_total_days, 2)
+                else: 
+                    hypothetical_savings = 'N/A'
+
+                writer.writerow([STATES[statesIter], brnd_name, brnd_total_days, brnd_total_cost, brnd_avg_cost, gen_name, gen_total_days, gen_total_cost, gen_avg_cost, percent_brand, hypothetical_savings])
                 drugIter += 1
         statesIter += 1
 
