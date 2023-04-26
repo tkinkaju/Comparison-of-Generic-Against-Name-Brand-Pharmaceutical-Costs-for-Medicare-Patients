@@ -99,17 +99,19 @@ with open('states_summary.csv', newline='') as input_file:
         drug_type = row['gen_name']
 
         if drug_type not in drug_files:
-            directory_path = os.path.abspath(os.path.join(os.getcwd(), "..", "Comparison-of-Generic-Against-Name-Brand-Pharmaceutical-Costs-for-Medicare-Patients", "map source data", "2020", "statesSummaries"))
+            directory_path = os.path.abspath(os.path.join(os.getcwd(), "map source data", "2020", "statesSummaries"))
             print(directory_path)
             if not os.path.exists(directory_path):
                 os.makedirs(directory_path)
 
-            drug_file = open(os.path.join(directory_path, drug_type + "_states_final.csv"), "w")
+            drug_file = open(os.path.join(directory_path, drug_type + "_states_final.csv"), "w", newline='')
             writer = csv.DictWriter(drug_file, fieldnames=reader.fieldnames)
             writer.writeheader()
             drug_files[drug_type] = (drug_file, writer)
 
         drug_file, writer = drug_files[drug_type]
+        # print("==")
+        # print(row)
         writer.writerow(row)
 
     for drug_file, writer in drug_files.values():
