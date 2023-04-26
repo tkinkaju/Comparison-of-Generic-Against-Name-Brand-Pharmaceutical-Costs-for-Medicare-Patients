@@ -1,6 +1,6 @@
 zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_total_day,gen_total_cost,gen_avg_cost,percent_brand,lat,lon
 02169,Aricept,0,0,N/A,Donepezil Hcl,35726,14379.08,0.4,0.0,42.250739,-70.99593
-33166,Aricept,330,5523.21,16.74,Donepezil Hcl,224529,16573.93,0.07,0.001468,25.824725,-80.30476
+33166,Aricept,330,5523.21,16.74,Donepezil Hcl,224529,16573.93,0.07,0.146759,25.824725,-80.30476
 35976,Aricept,0,0,N/A,Donepezil Hcl,59658,21383.66,0.36,0.0,34.350835000000004,-86.30475
 03301,Aricept,0,0,N/A,Donepezil Hcl,88108,36490.36,0.41,0.0,43.213705,-71.53774
 77082,Aricept,0,0,N/A,Donepezil Hcl,35406,11808.46,0.33,0.0,29.722704,-95.6314
@@ -14,7 +14,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 02451,Aricept,0,0,N/A,Donepezil Hcl,5867,2146.32,0.37,0.0,42.393029,-71.24771
 10532,Aricept,0,0,N/A,Donepezil Hcl,33116,10986.24,0.33,0.0,41.103664,-73.7958
 91360,Aricept,0,0,N/A,Donepezil Hcl,77990,27371.11,0.35,0.0,34.208837,-118.87348
-15213,Aricept,360,5982.0,16.62,Donepezil Hcl,213354,86985.68,0.41,0.001684,40.443269,-79.95487
+15213,Aricept,360,5982.0,16.62,Donepezil Hcl,213354,86985.68,0.41,0.168449,40.443269,-79.95487
 34601,Aricept,0,0,N/A,Donepezil Hcl,23846,3760.88,0.16,0.0,28.566183,-82.38002
 46526,Aricept,0,0,N/A,Donepezil Hcl,63693,25455.46,0.4,0.0,41.567559,-85.84885
 85014,Aricept,0,0,N/A,Donepezil Hcl,13305,5330.82,0.4,0.0,33.511325,-112.05711
@@ -44,7 +44,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 14127,Aricept,0,0,N/A,Donepezil Hcl,26739,6715.84,0.25,0.0,42.759917,-78.75294
 73104,Aricept,0,0,N/A,Donepezil Hcl,68606,20994.91,0.31,0.0,35.47596,-97.50586
 01655,Aricept,0,0,N/A,Donepezil Hcl,10419,2469.25,0.24,0.0,42.364807,-71.896868
-79912,Aricept,360,5962.56,16.56,Donepezil Hcl,104013,25778.44,0.25,0.003449,31.848055,-106.54487
+79912,Aricept,360,5962.56,16.56,Donepezil Hcl,104013,25778.44,0.25,0.344917,31.848055,-106.54487
 75284,Aricept,0,0,N/A,Donepezil Hcl,1099096,324453.95,0.3,0.0,32.767268,-96.777626
 83704,Aricept,0,0,N/A,Donepezil Hcl,15630,4334.35,0.28,0.0,43.63123,-116.28716
 44145,Aricept,0,0,N/A,Donepezil Hcl,150736,76546.45,0.51,0.0,41.454439,-81.92865
@@ -73,7 +73,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 23225,Aricept,0,0,N/A,Donepezil Hcl,35856,19724.3,0.55,0.0,37.51918,-77.49851
 92809,Aricept,0,0,N/A,Donepezil Hcl,35607,7839.09,0.22,0.0,N/A,N/A
 77450,Aricept,0,0,N/A,Donepezil Hcl,73492,19895.07,0.27,0.0,29.758799,-95.74751
-11235,Aricept,390,6938.62,17.79,Donepezil Hcl,225286,66836.59,0.3,0.001728,40.583803,-73.95019
+11235,Aricept,390,6938.62,17.79,Donepezil Hcl,225286,66836.59,0.3,0.172814,40.583803,-73.95019
 91343,Aricept,0,0,N/A,Donepezil Hcl,5850,946.53,0.16,0.0,34.239503,-118.48224
 33870,Aricept,0,0,N/A,Donepezil Hcl,59620,16363.78,0.27,0.0,27.483817,-81.42131
 34769,Aricept,0,0,N/A,Donepezil Hcl,104889,22369.46,0.21,0.0,28.24934,-81.28749
@@ -176,7 +176,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 32405,Aricept,0,0,N/A,Donepezil Hcl,87022,24794.75,0.28,0.0,30.195424,-85.66458
 30309,Aricept,0,0,N/A,Donepezil Hcl,110087,36574.89,0.33,0.0,33.794055,-84.38525
 10461,Aricept,0,0,N/A,Donepezil Hcl,160667,62700.6,0.39,0.0,40.842917,-73.83819
-55425,Aricept,266,5137.8,19.32,Donepezil Hcl,389503,165349.52,0.42,0.000682,44.846765,-93.2449
+55425,Aricept,266,5137.8,19.32,Donepezil Hcl,389503,165349.52,0.42,0.068246,44.846765,-93.2449
 99352,Aricept,0,0,N/A,Donepezil Hcl,71279,22597.63,0.32,0.0,46.279657,-119.28137
 76712,Aricept,0,0,N/A,Donepezil Hcl,51517,13397.01,0.26,0.0,31.514067,-97.23546
 77070,Aricept,0,0,N/A,Donepezil Hcl,90903,26102.26,0.29,0.0,29.978801,-95.57655
@@ -188,7 +188,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 89074,Aricept,0,0,N/A,Donepezil Hcl,98798,35748.27,0.36,0.0,36.038181,-115.086999
 03756,Aricept,0,0,N/A,Donepezil Hcl,98516,37830.25,0.38,0.0,43.967542,-71.840883
 43202,Aricept,0,0,N/A,Donepezil Hcl,265750,85961.78,0.32,0.0,40.018814,-83.00894
-10028,Aricept,330,5749.7,17.42,Donepezil Hcl,54819,15999.47,0.29,0.005984,40.776777,-73.9541
+10028,Aricept,330,5749.7,17.42,Donepezil Hcl,54819,15999.47,0.29,0.598379,40.776777,-73.9541
 37615,Aricept,0,0,N/A,Donepezil Hcl,59079,30673.62,0.52,0.0,36.405338,-82.44593
 60016,Aricept,0,0,N/A,Donepezil Hcl,67613,17412.32,0.26,0.0,42.047178,-87.89058
 37203,Aricept,0,0,N/A,Donepezil Hcl,399586,122293.37,0.31,0.0,36.152607,-86.78927
@@ -348,7 +348,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 75247,Aricept,0,0,N/A,Donepezil Hcl,12494,5975.36,0.48,0.0,32.817978,-96.87928
 53562,Aricept,0,0,N/A,Donepezil Hcl,261394,88350.85,0.34,0.0,43.103711,-89.51106
 29572,Aricept,0,0,N/A,Donepezil Hcl,58971,19344.16,0.33,0.0,33.765136,-78.79097
-10016,Aricept,450,8023.1,17.83,Donepezil Hcl,182303,62678.65,0.34,0.002462,40.74618,-73.97759
+10016,Aricept,450,8023.1,17.83,Donepezil Hcl,182303,62678.65,0.34,0.246234,40.74618,-73.97759
 12180,Aricept,0,0,N/A,Donepezil Hcl,20518,6666.18,0.32,0.0,42.731628,-73.66465
 56201,Aricept,0,0,N/A,Donepezil Hcl,44601,14105.48,0.32,0.0,45.118846,-95.04504
 73071,Aricept,0,0,N/A,Donepezil Hcl,28497,9976.31,0.35,0.0,35.225702,-97.42394
@@ -411,7 +411,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 11743,Aricept,0,0,N/A,Donepezil Hcl,142775,50019.14,0.35,0.0,40.867498,-73.41146
 60620,Aricept,0,0,N/A,Donepezil Hcl,6653,2894.16,0.44,0.0,41.740483,-87.65282
 60714,Aricept,0,0,N/A,Donepezil Hcl,29563,5979.16,0.2,0.0,42.032379,-87.81563
-98405,Aricept,420,7491.26,17.84,Donepezil Hcl,109587,37723.13,0.34,0.003818,47.248953,-122.46599
+98405,Aricept,420,7491.26,17.84,Donepezil Hcl,109587,37723.13,0.34,0.381794,47.248953,-122.46599
 42304,Aricept,0,0,N/A,Donepezil Hcl,70582,26947.43,0.38,0.0,37.745491,-87.112823
 73703,Aricept,0,0,N/A,Donepezil Hcl,6660,1599.83,0.24,0.0,36.402665999999996,-97.92836
 27704,Aricept,0,0,N/A,Donepezil Hcl,44453,17607.89,0.4,0.0,36.034561,-78.86892
@@ -477,7 +477,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 34285,Aricept,0,0,N/A,Donepezil Hcl,34219,9601.51,0.28,0.0,27.091783,-82.44846
 27577,Aricept,0,0,N/A,Donepezil Hcl,29689,6209.81,0.21,0.0,35.506459,-78.34446
 79424,Aricept,0,0,N/A,Donepezil Hcl,50608,26393.88,0.52,0.0,33.513337,-101.93239
-33484,Aricept,356,6415.93,18.02,Donepezil Hcl,95462,24563.21,0.26,0.003715,26.458152,-80.1356
+33484,Aricept,356,6415.93,18.02,Donepezil Hcl,95462,24563.21,0.26,0.371538,26.458152,-80.1356
 01830,Aricept,0,0,N/A,Donepezil Hcl,28515,12481.68,0.44,0.0,42.78519,-71.07011
 15010,Aricept,0,0,N/A,Donepezil Hcl,36606,15159.04,0.41,0.0,40.763899,-80.33572
 95816,Aricept,0,0,N/A,Donepezil Hcl,72268,18541.57,0.26,0.0,38.571661,-121.46827
@@ -504,7 +504,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 85718,Aricept,0,0,N/A,Donepezil Hcl,173994,50435.75,0.29,0.0,32.31346,-110.92282
 42303,Aricept,0,0,N/A,Donepezil Hcl,93264,35603.03,0.38,0.0,37.758568,-87.08714
 96001,Aricept,0,0,N/A,Donepezil Hcl,73226,21593.29,0.29,0.0,40.56816,-122.41519
-33407,Aricept,690,11814.09,17.12,Donepezil Hcl,126750,28320.88,0.22,0.005414,26.750991,-80.07296
+33407,Aricept,690,11814.09,17.12,Donepezil Hcl,126750,28320.88,0.22,0.541431,26.750991,-80.07296
 37055,Aricept,0,0,N/A,Donepezil Hcl,40684,16699.58,0.41,0.0,36.065779,-87.40831
 28604,Aricept,0,0,N/A,Donepezil Hcl,7066,1463.91,0.21,0.0,36.166515,-81.84672
 02910,Aricept,0,0,N/A,Donepezil Hcl,21246,6036.44,0.28,0.0,41.776867,-71.43672
@@ -586,7 +586,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 54024,Aricept,0,0,N/A,Donepezil Hcl,28439,7668.37,0.27,0.0,45.469339,-92.62088
 70112,Aricept,0,0,N/A,Donepezil Hcl,30185,7102.74,0.24,0.0,29.956803999999998,-90.07757
 72403,Aricept,0,0,N/A,Donepezil Hcl,134694,59976.63,0.45,0.0,35.830541,-90.703915
-10032,Aricept,690,10966.15,15.89,Donepezil Hcl,304800,66929.85,0.22,0.002259,40.840686,-73.94154
+10032,Aricept,690,10966.15,15.89,Donepezil Hcl,304800,66929.85,0.22,0.225867,40.840686,-73.94154
 06460,Aricept,0,0,N/A,Donepezil Hcl,11809,5362.94,0.45,0.0,41.21953,-73.0554
 77385,Aricept,0,0,N/A,Donepezil Hcl,35246,7848.29,0.22,0.0,30.18771,-95.43893
 77573,Aricept,0,0,N/A,Donepezil Hcl,25210,7788.1,0.31,0.0,29.502759,-95.08906
@@ -659,7 +659,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 99202,Aricept,0,0,N/A,Donepezil Hcl,41909,12508.08,0.3,0.0,47.656692,-117.37899
 33702,Aricept,0,0,N/A,Donepezil Hcl,119768,24721.3,0.21,0.0,27.843052,-82.6449
 25309,Aricept,0,0,N/A,Donepezil Hcl,54028,17472.78,0.32,0.0,38.329768,-81.73418
-90210,Aricept,360,6427.68,17.85,Donepezil Hcl,30520,8641.71,0.28,0.011658,34.088808,-118.40612
+90210,Aricept,360,6427.68,17.85,Donepezil Hcl,30520,8641.71,0.28,1.165803,34.088808,-118.40612
 67401,Aricept,0,0,N/A,Donepezil Hcl,84999,16930.15,0.2,0.0,38.827875,-97.61553
 28263,Aricept,0,0,N/A,Donepezil Hcl,22710,5787.91,0.25,0.0,N/A,N/A
 37311,Aricept,0,0,N/A,Donepezil Hcl,27126,6436.81,0.24,0.0,35.146362,-84.88723
@@ -760,7 +760,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 28744,Aricept,0,0,N/A,Donepezil Hcl,1290,177.75,0.14,0.0,35.117299,-83.295244
 95865,Aricept,0,0,N/A,Donepezil Hcl,97459,24522.09,0.25,0.0,38.377411,-121.444429
 03755,Aricept,0,0,N/A,Donepezil Hcl,3072,1038.54,0.34,0.0,43.719756,-72.2507
-31794,Aricept,364,6369.74,17.5,Donepezil Hcl,138734,41629.0,0.3,0.002617,31.459666,-83.51083
+31794,Aricept,364,6369.74,17.5,Donepezil Hcl,138734,41629.0,0.3,0.261686,31.459666,-83.51083
 47591,Aricept,0,0,N/A,Donepezil Hcl,18598,6294.65,0.34,0.0,38.668827,-87.50791
 98632,Aricept,0,0,N/A,Donepezil Hcl,74836,22356.61,0.3,0.0,46.156082,-122.98043
 41017,Aricept,0,0,N/A,Donepezil Hcl,23633,4682.99,0.2,0.0,39.036361,-84.56801
@@ -837,7 +837,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 17522,Aricept,0,0,N/A,Donepezil Hcl,35137,15980.63,0.45,0.0,40.174994,-76.17619
 58501,Aricept,0,0,N/A,Donepezil Hcl,62735,24979.86,0.4,0.0,46.83962,-100.7723
 78665,Aricept,0,0,N/A,Donepezil Hcl,8894,2927.39,0.33,0.0,30.219829,-98.358613
-90045,Aricept,330,5884.34,17.83,Donepezil Hcl,273072,90563.72,0.33,0.001207,33.960041,-118.3949
+90045,Aricept,330,5884.34,17.83,Donepezil Hcl,273072,90563.72,0.33,0.120701,33.960041,-118.3949
 27893,Aricept,0,0,N/A,Donepezil Hcl,30356,8703.53,0.29,0.0,35.715315,-77.91989
 45801,Aricept,0,0,N/A,Donepezil Hcl,19432,6759.94,0.35,0.0,40.759451,-84.08458
 90241,Aricept,0,0,N/A,Donepezil Hcl,215058,52874.66,0.25,0.0,33.942289,-118.12901
@@ -896,7 +896,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 94025,Aricept,0,0,N/A,Donepezil Hcl,11151,2367.19,0.21,0.0,37.451688,-122.18385
 00984,Aricept,0,0,N/A,Donepezil Hcl,66453,13892.5,0.21,0.0,18.393355,-65.972495
 20010,Aricept,0,0,N/A,Donepezil Hcl,29187,9448.79,0.32,0.0,38.933311,-77.02929
-07960,Aricept,360,5879.54,16.33,Donepezil Hcl,97572,36387.98,0.37,0.003676,40.79215,-74.48559
+07960,Aricept,360,5879.54,16.33,Donepezil Hcl,97572,36387.98,0.37,0.367602,40.79215,-74.48559
 99835,Aricept,0,0,N/A,Donepezil Hcl,634,1898.26,2.99,0.0,57.064376,-135.3227
 38175,Aricept,0,0,N/A,Donepezil Hcl,4277,911.05,0.21,0.0,35.201738,-89.971538
 08060,Aricept,0,0,N/A,Donepezil Hcl,13702,6276.55,0.46,0.0,39.991562,-74.79747
@@ -932,7 +932,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 19508,Aricept,0,0,N/A,Donepezil Hcl,1110,202.08,0.18,0.0,40.267165,-75.8254
 79923,Aricept,0,0,N/A,Donepezil Hcl,25107,11314.24,0.45,0.0,31.694842,-106.299987
 65775,Aricept,0,0,N/A,Donepezil Hcl,54621,14765.83,0.27,0.0,36.719145,-91.87408
-95521,Aricept,330,11767.58,35.66,Donepezil Hcl,15804,4236.6,0.27,0.020454,40.867469,-124.07519
+95521,Aricept,330,11767.58,35.66,Donepezil Hcl,15804,4236.6,0.27,2.04537,40.867469,-124.07519
 63026,Aricept,0,0,N/A,Donepezil Hcl,12574,2362.97,0.19,0.0,38.502854,-90.46088
 15219,Aricept,0,0,N/A,Donepezil Hcl,31001,12491.06,0.4,0.0,40.443819,-79.98067
 55364,Aricept,0,0,N/A,Donepezil Hcl,8328,3979.87,0.48,0.0,44.933712,-93.66038
@@ -942,7 +942,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 38308,Aricept,0,0,N/A,Donepezil Hcl,2184,654.2,0.3,0.0,35.612405,-88.841225
 74401,Aricept,0,0,N/A,Donepezil Hcl,20700,3809.48,0.18,0.0,35.739681,-95.40711
 60005,Aricept,0,0,N/A,Donepezil Hcl,60345,28843.65,0.48,0.0,42.069327,-87.98464
-35903,Aricept,346,6179.93,17.86,Donepezil Hcl,69934,14332.27,0.2,0.004923,33.996698,-85.92496
+35903,Aricept,346,6179.93,17.86,Donepezil Hcl,69934,14332.27,0.2,0.492316,33.996698,-85.92496
 22803,Aricept,0,0,N/A,Donepezil Hcl,71426,26259.85,0.37,0.0,N/A,N/A
 60031,Aricept,0,0,N/A,Donepezil Hcl,30787,8321.46,0.27,0.0,42.375821,-87.93517
 32256,Aricept,0,0,N/A,Donepezil Hcl,35503,11674.91,0.33,0.0,30.206922,-81.54604
@@ -1050,7 +1050,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 75024,Aricept,0,0,N/A,Donepezil Hcl,48001,20421.28,0.43,0.0,33.07707,-96.79859
 11355,Aricept,0,0,N/A,Donepezil Hcl,193162,54835.66,0.28,0.0,40.749463,-73.81941
 15203,Aricept,0,0,N/A,Donepezil Hcl,58988,29169.51,0.49,0.0,40.426211,-79.97826
-56031,Aricept,323,11361.41,35.17,Donepezil Hcl,35292,12916.59,0.37,0.009069,43.646916,-94.45856
+56031,Aricept,323,11361.41,35.17,Donepezil Hcl,35292,12916.59,0.37,0.906921,43.646916,-94.45856
 42241,Aricept,0,0,N/A,Donepezil Hcl,9511,2042.77,0.21,0.0,36.898071,-87.496529
 13204,Aricept,0,0,N/A,Donepezil Hcl,105705,41470.85,0.39,0.0,43.048966,-76.17536
 08540,Aricept,0,0,N/A,Donepezil Hcl,33749,9445.12,0.28,0.0,40.357439,-74.64922
@@ -1119,7 +1119,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 96753,Aricept,0,0,N/A,Donepezil Hcl,4140,1838.51,0.44,0.0,20.771418,-156.45769
 64701,Aricept,0,0,N/A,Donepezil Hcl,12822,4310.3,0.34,0.0,38.641509,-94.34126
 23220,Aricept,0,0,N/A,Donepezil Hcl,44469,14039.82,0.32,0.0,37.549396,-77.45739
-94536,Aricept,330,5764.11,17.47,Donepezil Hcl,60917,15451.35,0.25,0.005388,37.562218,-121.99433
+94536,Aricept,330,5764.11,17.47,Donepezil Hcl,60917,15451.35,0.25,0.538802,37.562218,-121.99433
 11797,Aricept,0,0,N/A,Donepezil Hcl,2227,861.36,0.39,0.0,40.813801,-73.46912
 73075,Aricept,0,0,N/A,Donepezil Hcl,12804,4013.21,0.31,0.0,34.741677,-97.22846
 93458,Aricept,0,0,N/A,Donepezil Hcl,33537,7084.16,0.21,0.0,34.956344,-120.45243
@@ -1192,7 +1192,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 44001,Aricept,0,0,N/A,Donepezil Hcl,4417,1061.43,0.24,0.0,41.386533,-82.23419
 18960,Aricept,0,0,N/A,Donepezil Hcl,45092,13696.29,0.3,0.0,40.361206,-75.31101
 08053,Aricept,0,0,N/A,Donepezil Hcl,300577,103674.37,0.34,0.0,39.88488,-74.90416
-00936,Aricept,900,15386.04,17.1,Donepezil Hcl,218067,69123.48,0.32,0.00411,18.410462,-66.060533
+00936,Aricept,900,15386.04,17.1,Donepezil Hcl,218067,69123.48,0.32,0.411021,18.410462,-66.060533
 34952,Aricept,0,0,N/A,Donepezil Hcl,102304,29654.93,0.29,0.0,27.291694,-80.29691
 17601,Aricept,0,0,N/A,Donepezil Hcl,82596,33583.9,0.41,0.0,40.072246,-76.3155
 36532,Aricept,0,0,N/A,Donepezil Hcl,72820,26119.16,0.36,0.0,30.512458,-87.88559
@@ -1491,7 +1491,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 85751,Aricept,0,0,N/A,Donepezil Hcl,32716,12254.62,0.37,0.0,32.161972,-110.714678
 11373,Aricept,0,0,N/A,Donepezil Hcl,130806,32758.12,0.25,0.0,40.736076,-73.87804
 08103,Aricept,0,0,N/A,Donepezil Hcl,136432,48541.51,0.36,0.0,39.936179,-75.11513
-05401,Aricept,330,1207.63,3.66,Donepezil Hcl,99444,26677.41,0.27,0.003307,44.484038,-73.22126
+05401,Aricept,330,1207.63,3.66,Donepezil Hcl,99444,26677.41,0.27,0.330747,44.484038,-73.22126
 34613,Aricept,0,0,N/A,Donepezil Hcl,51786,9486.12,0.18,0.0,28.555346,-82.53601
 47807,Aricept,0,0,N/A,Donepezil Hcl,73870,55242.22,0.75,0.0,39.470986,-87.39996
 60521,Aricept,0,0,N/A,Donepezil Hcl,80868,34093.91,0.42,0.0,41.772915,-87.92996
@@ -1586,7 +1586,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 90720,Aricept,0,0,N/A,Donepezil Hcl,88261,32663.98,0.37,0.0,33.794028,-118.07218
 01901,Aricept,0,0,N/A,Donepezil Hcl,10969,5847.81,0.53,0.0,42.461246,-70.946743
 07103,Aricept,0,0,N/A,Donepezil Hcl,8092,6847.73,0.85,0.0,40.738501,-74.19507
-61265,Aricept,374,5952.43,15.92,Donepezil Hcl,123203,39304.8,0.32,0.003026,41.490333,-90.50006
+61265,Aricept,374,5952.43,15.92,Donepezil Hcl,123203,39304.8,0.32,0.302645,41.490333,-90.50006
 01960,Aricept,0,0,N/A,Donepezil Hcl,94084,23080.65,0.25,0.0,42.534045,-70.96146
 77479,Aricept,0,0,N/A,Donepezil Hcl,179902,72751.55,0.4,0.0,29.573345,-95.63213
 16046,Aricept,0,0,N/A,Donepezil Hcl,15866,8432.91,0.53,0.0,40.695658,-80.03359
@@ -1801,7 +1801,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 67846,Aricept,0,0,N/A,Donepezil Hcl,13841,3710.19,0.27,0.0,37.976008,-100.82503
 02120,Aricept,0,0,N/A,Donepezil Hcl,4591,1095.69,0.24,0.0,42.332099,-71.09651
 57709,Aricept,0,0,N/A,Donepezil Hcl,20735,6914.51,0.33,0.0,44.076106,-103.317149
-00693,Aricept,360,6239.2,17.33,Donepezil Hcl,105316,23120.12,0.22,0.003407,18.440667,-66.3921
+00693,Aricept,360,6239.2,17.33,Donepezil Hcl,105316,23120.12,0.22,0.340664,18.440667,-66.3921
 06611,Aricept,0,0,N/A,Donepezil Hcl,57079,21093.05,0.37,0.0,41.256129,-73.21227
 87109,Aricept,0,0,N/A,Donepezil Hcl,47671,16229.1,0.34,0.0,35.155811,-106.56662
 48081,Aricept,0,0,N/A,Donepezil Hcl,22024,6431.38,0.29,0.0,42.497736,-82.89979
@@ -1948,7 +1948,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 36301,Aricept,0,0,N/A,Donepezil Hcl,149917,42928.78,0.29,0.0,31.180076,-85.4045
 95476,Aricept,0,0,N/A,Donepezil Hcl,12980,4808.85,0.37,0.0,38.277147,-122.47058
 12078,Aricept,0,0,N/A,Donepezil Hcl,25751,9206.33,0.36,0.0,43.069562,-74.3436
-14760,Aricept,374,5833.81,15.6,Donepezil Hcl,82367,63025.42,0.77,0.00452,42.076574,-78.42744
+14760,Aricept,374,5833.81,15.6,Donepezil Hcl,82367,63025.42,0.77,0.452013,42.076574,-78.42744
 40218,Aricept,0,0,N/A,Donepezil Hcl,40037,18998.25,0.47,0.0,38.193769,-85.65733
 92109,Aricept,0,0,N/A,Donepezil Hcl,46578,15758.81,0.34,0.0,32.791246,-117.24343
 06450,Aricept,0,0,N/A,Donepezil Hcl,8662,3157.9,0.36,0.0,41.532048,-72.78145
@@ -2043,7 +2043,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 80027,Aricept,0,0,N/A,Donepezil Hcl,15392,3541.89,0.23,0.0,39.963322,-105.15053
 66102,Aricept,0,0,N/A,Donepezil Hcl,7283,1167.42,0.16,0.0,39.112204,-94.66643
 07753,Aricept,0,0,N/A,Donepezil Hcl,131457,42446.94,0.32,0.0,40.208945,-74.05261
-29502,Aricept,1500,25158.23,16.77,Donepezil Hcl,190534,68606.62,0.36,0.007811,34.200994,-79.784721
+29502,Aricept,1500,25158.23,16.77,Donepezil Hcl,190534,68606.62,0.36,0.781112,34.200994,-79.784721
 06437,Aricept,0,0,N/A,Donepezil Hcl,18459,8792.19,0.48,0.0,41.31353,-72.69791
 21784,Aricept,0,0,N/A,Donepezil Hcl,22531,15020.24,0.67,0.0,39.39667,-76.965
 08648,Aricept,0,0,N/A,Donepezil Hcl,65073,17853.96,0.27,0.0,40.276782,-74.72951
@@ -2171,7 +2171,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 75154,Aricept,0,0,N/A,Donepezil Hcl,16915,8371.9,0.49,0.0,32.526123,-96.82325
 43560,Aricept,0,0,N/A,Donepezil Hcl,77978,42605.94,0.55,0.0,41.706383,-83.7102
 56401,Aricept,0,0,N/A,Donepezil Hcl,49277,14420.49,0.29,0.0,46.352758,-94.16289
-23226,Aricept,360,5837.43,16.22,Donepezil Hcl,221441,62738.2,0.28,0.001623,37.581696,-77.51709
+23226,Aricept,360,5837.43,16.22,Donepezil Hcl,221441,62738.2,0.28,0.162308,37.581696,-77.51709
 05452,Aricept,0,0,N/A,Donepezil Hcl,1833,729.76,0.4,0.0,44.501991,-73.09376
 81521,Aricept,0,0,N/A,Donepezil Hcl,17040,6124.77,0.36,0.0,39.159971,-108.72071
 48267,Aricept,0,0,N/A,Donepezil Hcl,36715,16279.1,0.44,0.0,42.239933,-83.150823
@@ -2221,14 +2221,14 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 65201,Aricept,0,0,N/A,Donepezil Hcl,79700,18876.34,0.24,0.0,38.926838,-92.29003
 75038,Aricept,0,0,N/A,Donepezil Hcl,106853,30860.5,0.29,0.0,32.872386,-96.98524
 83605,Aricept,0,0,N/A,Donepezil Hcl,8698,3391.0,0.39,0.0,43.658834,-116.67755
-11219,Aricept,330,5871.14,17.79,Donepezil Hcl,71072,20083.5,0.28,0.004622,40.632449,-73.99629
+11219,Aricept,330,5871.14,17.79,Donepezil Hcl,71072,20083.5,0.28,0.462172,40.632449,-73.99629
 85003,Aricept,0,0,N/A,Donepezil Hcl,28148,5948.87,0.21,0.0,33.451143,-112.07838
 45069,Aricept,0,0,N/A,Donepezil Hcl,24710,7610.44,0.31,0.0,39.343757,-84.40249
 29229,Aricept,0,0,N/A,Donepezil Hcl,1611,592.41,0.37,0.0,34.139511,-80.88783
 28625,Aricept,0,0,N/A,Donepezil Hcl,76727,25301.6,0.33,0.0,35.840579,-80.87988
 78387,Aricept,0,0,N/A,Donepezil Hcl,11490,1824.81,0.16,0.0,28.054995,-97.5133
 06762,Aricept,0,0,N/A,Donepezil Hcl,44308,21290.48,0.48,0.0,41.532992,-73.11555
-76301,Aricept,420,7335.14,17.46,Donepezil Hcl,73709,25131.06,0.34,0.005666,33.916497,-98.47132
+76301,Aricept,420,7335.14,17.46,Donepezil Hcl,73709,25131.06,0.34,0.56658,33.916497,-98.47132
 60515,Aricept,0,0,N/A,Donepezil Hcl,30479,10194.93,0.33,0.0,41.80348,-88.01827
 97301,Aricept,0,0,N/A,Donepezil Hcl,25042,12124.75,0.48,0.0,44.926644,-122.98694
 25701,Aricept,0,0,N/A,Donepezil Hcl,63499,25364.58,0.4,0.0,38.403511,-82.43904
@@ -2697,7 +2697,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 94120,Aricept,0,0,N/A,Donepezil Hcl,674,136.44,0.2,0.0,37.784827,-122.727802
 11362,Aricept,0,0,N/A,Donepezil Hcl,11205,6058.5,0.54,0.0,40.759686,-73.73322
 22046,Aricept,0,0,N/A,Donepezil Hcl,1110,274.0,0.25,0.0,38.886311,-77.18098
-90046,Aricept,1170,20325.76,17.37,Donepezil Hcl,187666,147890.09,0.79,0.006196,34.098908,-118.36241
+90046,Aricept,1170,20325.76,17.37,Donepezil Hcl,187666,147890.09,0.79,0.619585,34.098908,-118.36241
 19806,Aricept,0,0,N/A,Donepezil Hcl,4914,1156.17,0.24,0.0,39.758563,-75.56413
 33144,Aricept,0,0,N/A,Donepezil Hcl,304107,59535.27,0.2,0.0,25.76226,-80.30839
 70510,Aricept,0,0,N/A,Donepezil Hcl,36296,9074.85,0.25,0.0,29.943573,-92.14872
@@ -2946,7 +2946,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 07702,Aricept,0,0,N/A,Donepezil Hcl,12706,3009.41,0.24,0.0,40.329128,-74.06315
 32824,Aricept,0,0,N/A,Donepezil Hcl,11223,3443.89,0.31,0.0,28.410872,-81.35898
 30078,Aricept,0,0,N/A,Donepezil Hcl,149634,44105.67,0.29,0.0,33.860955,-84.01807
-64803,Aricept,360,6133.8,17.04,Donepezil Hcl,123789,28389.25,0.23,0.0029,37.206219,-94.335453
+64803,Aricept,360,6133.8,17.04,Donepezil Hcl,123789,28389.25,0.23,0.289974,37.206219,-94.335453
 85286,Aricept,0,0,N/A,Donepezil Hcl,18852,9800.24,0.52,0.0,33.850506,-112.05927
 62526,Aricept,0,0,N/A,Donepezil Hcl,70586,23375.15,0.33,0.0,39.878041,-88.95637
 44691,Aricept,0,0,N/A,Donepezil Hcl,72321,23656.95,0.33,0.0,40.800086,-81.95726
@@ -3013,13 +3013,13 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 59604,Aricept,0,0,N/A,Donepezil Hcl,46601,18334.79,0.39,0.0,46.6672,-111.968877
 07840,Aricept,0,0,N/A,Donepezil Hcl,30297,17220.17,0.57,0.0,40.861748,-74.83054
 30368,Aricept,0,0,N/A,Donepezil Hcl,99425,26786.23,0.27,0.0,33.844371,-84.47405
-15143,Aricept,420,6729.06,16.02,Donepezil Hcl,44322,17426.19,0.39,0.009387,40.561091,-80.15554
+15143,Aricept,420,6729.06,16.02,Donepezil Hcl,44322,17426.19,0.39,0.938715,40.561091,-80.15554
 53538,Aricept,0,0,N/A,Donepezil Hcl,13628,4763.18,0.35,0.0,42.924942,-88.84813
 29801,Aricept,0,0,N/A,Donepezil Hcl,27585,9558.51,0.35,0.0,33.569885,-81.71368
 90301,Aricept,0,0,N/A,Donepezil Hcl,16492,4400.08,0.27,0.0,33.955913,-118.35868
 84003,Aricept,0,0,N/A,Donepezil Hcl,50302,18357.47,0.36,0.0,40.394235,-111.79449
 53222,Aricept,0,0,N/A,Donepezil Hcl,7665,1964.22,0.26,0.0,43.083261,-88.02823
-00646,Aricept,360,6254.24,17.37,Donepezil Hcl,161647,32905.54,0.2,0.002222,18.442798,-66.27689
+00646,Aricept,360,6254.24,17.37,Donepezil Hcl,161647,32905.54,0.2,0.222213,18.442798,-66.27689
 31558,Aricept,0,0,N/A,Donepezil Hcl,8455,2457.4,0.29,0.0,30.761081,-81.56912
 32803,Aricept,0,0,N/A,Donepezil Hcl,22843,5337.72,0.23,0.0,28.557579,-81.35244
 12090,Aricept,0,0,N/A,Donepezil Hcl,2970,674.96,0.23,0.0,42.888816,-73.3555
@@ -3049,7 +3049,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 06074,Aricept,0,0,N/A,Donepezil Hcl,4200,1199.03,0.29,0.0,41.836664999999996,-72.56076
 23701,Aricept,0,0,N/A,Donepezil Hcl,2343,1193.22,0.51,0.0,36.810448,-76.36811
 78375,Aricept,0,0,N/A,Donepezil Hcl,9130,4311.21,0.47,0.0,27.368433,-98.12184
-51534,Aricept,600,9407.8,15.68,Donepezil Hcl,2226,686.99,0.31,0.212314,41.039679,-95.73092
+51534,Aricept,600,9407.8,15.68,Donepezil Hcl,2226,686.99,0.31,21.231423,41.039679,-95.73092
 49022,Aricept,0,0,N/A,Donepezil Hcl,2708,2306.38,0.85,0.0,42.10809,-86.41801
 42103,Aricept,0,0,N/A,Donepezil Hcl,32171,15016.8,0.47,0.0,36.969761,-86.38247
 78239,Aricept,0,0,N/A,Donepezil Hcl,2405,829.86,0.35,0.0,29.51613,-98.36161
@@ -3130,7 +3130,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 28436,Aricept,0,0,N/A,Donepezil Hcl,480,66.94,0.14,0.0,34.275453,-78.26673
 72601,Aricept,0,0,N/A,Donepezil Hcl,42171,10537.28,0.25,0.0,36.236984,-93.09345
 01085,Aricept,0,0,N/A,Donepezil Hcl,11087,3205.3,0.29,0.0,42.133642,-72.75029
-07871,Aricept,360,5967.36,16.58,Donepezil Hcl,27653,11825.57,0.43,0.012851,41.035384,-74.63557
+07871,Aricept,360,5967.36,16.58,Donepezil Hcl,27653,11825.57,0.43,1.285118,41.035384,-74.63557
 90034,Aricept,0,0,N/A,Donepezil Hcl,59072,14833.7,0.25,0.0,34.03056,-118.39804
 44735,Aricept,0,0,N/A,Donepezil Hcl,82735,31679.37,0.38,0.0,40.811809,-81.368284
 33880,Aricept,0,0,N/A,Donepezil Hcl,155212,37521.55,0.24,0.0,27.997276,-81.74554
@@ -3264,13 +3264,13 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 62702,Aricept,0,0,N/A,Donepezil Hcl,37242,11013.33,0.3,0.0,39.819,-89.64379
 48073,Aricept,0,0,N/A,Donepezil Hcl,79528,31026.0,0.39,0.0,42.518635,-83.16357
 74462,Aricept,0,0,N/A,Donepezil Hcl,16254,3831.91,0.24,0.0,35.272967,-95.16328
-29203,Aricept,720,12628.16,17.54,Donepezil Hcl,162947,90678.14,0.56,0.004399,34.066271,-81.02492
+29203,Aricept,720,12628.16,17.54,Donepezil Hcl,162947,90678.14,0.56,0.439918,34.066271,-81.02492
 20602,Aricept,0,0,N/A,Donepezil Hcl,17428,6798.43,0.39,0.0,38.598185,-76.903810000000007
 89533,Aricept,0,0,N/A,Donepezil Hcl,26722,6396.81,0.24,0.0,39.543941,-119.906109
 91011,Aricept,0,0,N/A,Donepezil Hcl,17514,3704.98,0.21,0.0,34.211171,-118.19776
 91006,Aricept,0,0,N/A,Donepezil Hcl,103967,29223.55,0.28,0.0,34.134057,-118.02662
 37919,Aricept,0,0,N/A,Donepezil Hcl,44138,18674.08,0.42,0.0,35.922881,-84.00384
-06905,Aricept,360,5940.84,16.5,Donepezil Hcl,29856,11612.08,0.39,0.011914,41.081396,-73.54506
+06905,Aricept,360,5940.84,16.5,Donepezil Hcl,29856,11612.08,0.39,1.191422,41.081396,-73.54506
 89519,Aricept,0,0,N/A,Donepezil Hcl,1110,133.12,0.12,0.0,N/A,N/A
 58506,Aricept,0,0,N/A,Donepezil Hcl,41191,16536.15,0.4,0.0,46.980475,-100.520063
 48125,Aricept,0,0,N/A,Donepezil Hcl,2729,410.0,0.15,0.0,42.277388,-83.25987
@@ -3288,7 +3288,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 52001,Aricept,0,0,N/A,Donepezil Hcl,78063,22999.96,0.29,0.0,42.515252,-90.6794
 80526,Aricept,0,0,N/A,Donepezil Hcl,13290,9491.27,0.71,0.0,40.539432,-105.11576
 39183,Aricept,0,0,N/A,Donepezil Hcl,9829,3253.26,0.33,0.0,32.386653,-90.84485
-98370,Aricept,330,2948.22,8.93,Donepezil Hcl,16523,7182.31,0.43,0.019581,47.743302,-122.63041
+98370,Aricept,330,2948.22,8.93,Donepezil Hcl,16523,7182.31,0.43,1.958108,47.743302,-122.63041
 45264,Aricept,0,0,N/A,Donepezil Hcl,30224,17783.94,0.59,0.0,39.166759,-84.53822
 95765,Aricept,0,0,N/A,Donepezil Hcl,21107,7449.6,0.35,0.0,38.817993,-121.2631
 07641,Aricept,0,0,N/A,Donepezil Hcl,9779,8429.81,0.86,0.0,40.958573,-73.98659
@@ -3430,7 +3430,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 18015,Aricept,0,0,N/A,Donepezil Hcl,70092,25253.19,0.36,0.0,40.601261,-75.37542
 24740,Aricept,0,0,N/A,Donepezil Hcl,66866,21415.63,0.32,0.0,37.368167,-81.07307
 48116,Aricept,0,0,N/A,Donepezil Hcl,11876,3834.06,0.32,0.0,42.509476,-83.77718
-32940,Aricept,390,6372.73,16.34,Donepezil Hcl,40877,14353.43,0.35,0.009451,28.21981,-80.69402
+32940,Aricept,390,6372.73,16.34,Donepezil Hcl,40877,14353.43,0.35,0.945065,28.21981,-80.69402
 37662,Aricept,0,0,N/A,Donepezil Hcl,104545,30525.22,0.29,0.0,36.530517,-82.529816
 33573,Aricept,0,0,N/A,Donepezil Hcl,53883,11802.68,0.22,0.0,27.713353,-82.35965
 72143,Aricept,0,0,N/A,Donepezil Hcl,61061,16150.21,0.26,0.0,35.239022,-91.73776
@@ -3638,7 +3638,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 75261,Aricept,0,0,N/A,Donepezil Hcl,97664,22786.98,0.23,0.0,32.767268,-96.777626
 07065,Aricept,0,0,N/A,Donepezil Hcl,9028,2227.91,0.25,0.0,40.607103,-74.28099
 44883,Aricept,0,0,N/A,Donepezil Hcl,30550,13996.88,0.46,0.0,41.12071,-83.17658
-90212,Aricept,360,6288.12,17.47,Donepezil Hcl,47505,13556.39,0.29,0.007521,34.060859,-118.40191
+90212,Aricept,360,6288.12,17.47,Donepezil Hcl,47505,13556.39,0.29,0.752115,34.060859,-118.40191
 93302,Aricept,0,0,N/A,Donepezil Hcl,35604,9131.41,0.26,0.0,35.294405,-118.905173
 91910,Aricept,0,0,N/A,Donepezil Hcl,107154,24394.77,0.23,0.0,32.638654,-117.06686
 20155,Aricept,0,0,N/A,Donepezil Hcl,1669,489.61,0.29,0.0,38.803732,-77.62404
@@ -4034,7 +4034,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 12789,Aricept,0,0,N/A,Donepezil Hcl,390,222.64,0.57,0.0,41.708062,-74.5698
 98948,Aricept,0,0,N/A,Donepezil Hcl,9647,2382.36,0.25,0.0,46.35653,-120.33462
 78934,Aricept,0,0,N/A,Donepezil Hcl,14230,6596.97,0.46,0.0,29.712052,-96.56134
-33137,Aricept,360,6216.9,17.27,Donepezil Hcl,56855,27367.25,0.48,0.006292,25.817325,-80.19046
+33137,Aricept,360,6216.9,17.27,Donepezil Hcl,56855,27367.25,0.48,0.629206,25.817325,-80.19046
 70546,Aricept,0,0,N/A,Donepezil Hcl,27838,7160.6,0.26,0.0,30.242533,-92.66375
 43082,Aricept,0,0,N/A,Donepezil Hcl,64503,32027.85,0.5,0.0,40.14852,-82.91278
 55113,Aricept,0,0,N/A,Donepezil Hcl,3901,3106.58,0.8,0.0,45.011215,-93.15536
@@ -4185,7 +4185,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 95949,Aricept,0,0,N/A,Donepezil Hcl,2021,449.9,0.22,0.0,39.13255,-121.0981
 84332,Aricept,0,0,N/A,Donepezil Hcl,3513,2384.49,0.68,0.0,41.701304,-111.8096
 45244,Aricept,0,0,N/A,Donepezil Hcl,1496,330.8,0.22,0.0,39.119161,-84.33389
-90029,Aricept,390,6774.72,17.37,Donepezil Hcl,51242,11030.65,0.22,0.007553,34.090259,-118.29455
+90029,Aricept,390,6774.72,17.37,Donepezil Hcl,51242,11030.65,0.22,0.755346,34.090259,-118.29455
 15666,Aricept,0,0,N/A,Donepezil Hcl,14203,4137.08,0.29,0.0,40.150143,-79.52492
 37841,Aricept,0,0,N/A,Donepezil Hcl,19208,8668.48,0.45,0.0,36.49787,-84.51808
 44408,Aricept,0,0,N/A,Donepezil Hcl,6654,1855.9,0.28,0.0,40.884299,-80.68652
@@ -4776,7 +4776,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 76067,Aricept,0,0,N/A,Donepezil Hcl,7351,1873.17,0.25,0.0,32.810275,-98.10707
 10504,Aricept,0,0,N/A,Donepezil Hcl,13249,3682.2,0.28,0.0,41.129908,-73.70352
 92629,Aricept,0,0,N/A,Donepezil Hcl,7933,3236.61,0.41,0.0,33.475302,-117.70327
-80226,Aricept,360,6003.24,16.68,Donepezil Hcl,20204,5471.52,0.27,0.017506,39.71222,-105.08918
+80226,Aricept,360,6003.24,16.68,Donepezil Hcl,20204,5471.52,0.27,1.750632,39.71222,-105.08918
 91405,Aricept,0,0,N/A,Donepezil Hcl,66869,17467.47,0.26,0.0,34.199704,-118.44724
 10023,Aricept,0,0,N/A,Donepezil Hcl,61034,14235.55,0.23,0.0,40.776099,-73.98285
 20853,Aricept,0,0,N/A,Donepezil Hcl,2911,1368.31,0.47,0.0,39.087409,-77.0944
@@ -4934,7 +4934,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 19805,Aricept,0,0,N/A,Donepezil Hcl,39309,11066.02,0.28,0.0,39.745377,-75.58251
 21144,Aricept,0,0,N/A,Donepezil Hcl,3640,1050.24,0.29,0.0,39.130224,-76.69142
 01102,Aricept,0,0,N/A,Donepezil Hcl,7773,1585.74,0.2,0.0,42.170731,-72.604842
-00778,Aricept,330,5512.43,16.7,Donepezil Hcl,105084,21380.97,0.2,0.003131,18.258628,-65.97791
+00778,Aricept,330,5512.43,16.7,Donepezil Hcl,105084,21380.97,0.2,0.313051,18.258628,-65.97791
 01610,Aricept,0,0,N/A,Donepezil Hcl,11952,4151.36,0.35,0.0,42.248493,-71.80793
 76248,Aricept,0,0,N/A,Donepezil Hcl,9672,3114.82,0.32,0.0,32.92704,-97.2506
 91932,Aricept,0,0,N/A,Donepezil Hcl,2088,416.87,0.2,0.0,32.579555,-117.11708
@@ -6220,7 +6220,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 73026,Aricept,0,0,N/A,Donepezil Hcl,930,193.95,0.21,0.0,35.22704,-97.28198
 81321,Aricept,0,0,N/A,Donepezil Hcl,5536,2303.56,0.42,0.0,37.344985,-108.60355
 33606,Aricept,0,0,N/A,Donepezil Hcl,5538,1415.72,0.26,0.0,27.936799,-82.46911
-33510,Aricept,660,10573.57,16.02,Donepezil Hcl,33463,7225.97,0.22,0.019342,27.953801,-82.29748
+33510,Aricept,660,10573.57,16.02,Donepezil Hcl,33463,7225.97,0.22,1.934179,27.953801,-82.29748
 34446,Aricept,0,0,N/A,Donepezil Hcl,18264,4413.04,0.24,0.0,28.746912000000002,-82.53331
 58078,Aricept,0,0,N/A,Donepezil Hcl,12660,4604.83,0.36,0.0,46.875367,-96.90503
 99133,Aricept,0,0,N/A,Donepezil Hcl,1170,231.16,0.2,0.0,47.947097,-119.00713
@@ -6302,7 +6302,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 68521,Aricept,0,0,N/A,Donepezil Hcl,3794,1107.73,0.29,0.0,40.855645,-96.71298
 90272,Aricept,0,0,N/A,Donepezil Hcl,7745,2767.95,0.36,0.0,34.050505,-118.53374
 20791,Aricept,0,0,N/A,Donepezil Hcl,1109,232.49,0.21,0.0,38.833563,-76.877743
-00783,Aricept,360,6187.96,17.19,Donepezil Hcl,80314,13759.31,0.17,0.004462,18.304874,-66.32305
+00783,Aricept,360,6187.96,17.19,Donepezil Hcl,80314,13759.31,0.17,0.44624,18.304874,-66.32305
 78221,Aricept,0,0,N/A,Donepezil Hcl,14208,2298.74,0.16,0.0,29.326586,-98.50217
 60457,Aricept,0,0,N/A,Donepezil Hcl,10371,2902.7,0.28,0.0,41.723782,-87.82825
 22102,Aricept,0,0,N/A,Donepezil Hcl,35649,8753.26,0.25,0.0,38.938664,-77.22196
@@ -6426,7 +6426,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 60653,Aricept,0,0,N/A,Donepezil Hcl,3020,1399.04,0.46,0.0,41.819833,-87.61269
 32211,Aricept,0,0,N/A,Donepezil Hcl,1532,572.24,0.37,0.0,30.333022,-81.586
 39828,Aricept,0,0,N/A,Donepezil Hcl,15561,4147.8,0.27,0.0,N/A,N/A
-00692,Aricept,330,5773.9,17.5,Donepezil Hcl,56397,11841.79,0.21,0.005817,18.419666,-66.33186
+00692,Aricept,330,5773.9,17.5,Donepezil Hcl,56397,11841.79,0.21,0.581734,18.419666,-66.33186
 60638,Aricept,0,0,N/A,Donepezil Hcl,28356,7957.6,0.28,0.0,41.787982,-87.7738
 18343,Aricept,0,0,N/A,Donepezil Hcl,4030,1986.55,0.49,0.0,40.889911,-75.1112
 64157,Aricept,0,0,N/A,Donepezil Hcl,12381,4910.67,0.4,0.0,39.283535,-94.4705
@@ -6679,7 +6679,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 85033,Aricept,0,0,N/A,Donepezil Hcl,2043,809.92,0.4,0.0,33.496091,-112.21405
 74426,Aricept,0,0,N/A,Donepezil Hcl,4829,1566.55,0.32,0.0,35.443872,-95.54393
 24381,Aricept,0,0,N/A,Donepezil Hcl,51333,31725.48,0.62,0.0,36.714663,-80.82602
-70001,Aricept,358,3928.49,10.97,Donepezil Hcl,7731,12050.92,1.56,0.044258,29.984096,-90.16902
+70001,Aricept,358,3928.49,10.97,Donepezil Hcl,7731,12050.92,1.56,4.425763,29.984096,-90.16902
 55423,Aricept,0,0,N/A,Donepezil Hcl,7881,2604.99,0.33,0.0,44.877164,-93.28124
 80007,Aricept,0,0,N/A,Donepezil Hcl,1050,281.09,0.27,0.0,39.833442,-105.18591
 53224,Aricept,0,0,N/A,Donepezil Hcl,410,278.65,0.68,0.0,43.153865,-88.04032
@@ -6844,7 +6844,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 83661,Aricept,0,0,N/A,Donepezil Hcl,3027,758.37,0.25,0.0,44.079947,-116.89433
 28906,Aricept,0,0,N/A,Donepezil Hcl,5333,1197.96,0.22,0.0,35.091332,-84.09018
 33967,Aricept,0,0,N/A,Donepezil Hcl,6353,3283.93,0.52,0.0,N/A,N/A
-11105,Aricept,360,5676.72,15.77,Donepezil Hcl,14692,4443.54,0.3,0.023917,40.774686,-73.90816
+11105,Aricept,360,5676.72,15.77,Donepezil Hcl,14692,4443.54,0.3,2.391709,40.774686,-73.90816
 60502,Aricept,0,0,N/A,Donepezil Hcl,10662,7160.17,0.67,0.0,N/A,N/A
 87107,Aricept,0,0,N/A,Donepezil Hcl,17201,10661.3,0.62,0.0,35.134094,-106.64073
 41501,Aricept,0,0,N/A,Donepezil Hcl,24708,6543.04,0.26,0.0,37.478169,-82.5189
@@ -6898,7 +6898,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 47130,Aricept,0,0,N/A,Donepezil Hcl,65007,30799.53,0.47,0.0,38.309105,-85.72035
 18512,Aricept,0,0,N/A,Donepezil Hcl,26465,7871.15,0.3,0.0,41.427199,-75.61821
 32176,Aricept,0,0,N/A,Donepezil Hcl,7631,3321.58,0.44,0.0,29.316606,-81.05611
-43213,Aricept,300,10475.7,34.92,Donepezil Hcl,154920,54267.96,0.35,0.001933,39.966814,-82.87413
+43213,Aricept,300,10475.7,34.92,Donepezil Hcl,154920,54267.96,0.35,0.193274,39.966814,-82.87413
 33441,Aricept,0,0,N/A,Donepezil Hcl,10433,1673.04,0.16,0.0,26.309657,-80.09541
 49938,Aricept,0,0,N/A,Donepezil Hcl,7729,2246.97,0.29,0.0,46.47351,-90.15732
 92196,Aricept,0,0,N/A,Donepezil Hcl,4444,1070.65,0.24,0.0,33.016928,-116.846046
@@ -7220,7 +7220,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 79936,Aricept,0,0,N/A,Donepezil Hcl,78409,21525.77,0.27,0.0,31.766355,-106.29828
 20708,Aricept,0,0,N/A,Donepezil Hcl,2841,2453.84,0.86,0.0,39.0632,-76.84103
 82007,Aricept,0,0,N/A,Donepezil Hcl,484,131.86,0.27,0.0,41.101731,-104.80582
-12211,Aricept,330,5947.26,18.02,Donepezil Hcl,27179,9487.16,0.35,0.011996,42.705345,-73.76924
+12211,Aricept,330,5947.26,18.02,Donepezil Hcl,27179,9487.16,0.35,1.199607,42.705345,-73.76924
 50049,Aricept,0,0,N/A,Donepezil Hcl,6778,3080.52,0.45,0.0,41.02891,-93.29857
 92883,Aricept,0,0,N/A,Donepezil Hcl,4845,997.77,0.21,0.0,33.771548,-117.47884
 83530,Aricept,0,0,N/A,Donepezil Hcl,3722,566.69,0.15,0.0,45.923869,-116.13146
@@ -7572,7 +7572,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 72104,Aricept,0,0,N/A,Donepezil Hcl,31395,14509.74,0.46,0.0,34.364093,-92.8146
 31534,Aricept,0,0,N/A,Donepezil Hcl,17977,4580.0,0.25,0.0,31.571596,-82.854631
 31313,Aricept,0,0,N/A,Donepezil Hcl,18283,6958.21,0.38,0.0,31.828575,-81.61617
-12981,Aricept,750,18470.49,24.63,Donepezil Hcl,2880,769.92,0.27,0.206612,44.617642000000004,-73.81196
+12981,Aricept,750,18470.49,24.63,Donepezil Hcl,2880,769.92,0.27,20.661157,44.617642000000004,-73.81196
 31314,Aricept,0,0,N/A,Donepezil Hcl,4506,795.6,0.18,0.0,31.868699,-81.61083
 29418,Aricept,0,0,N/A,Donepezil Hcl,6197,3831.08,0.62,0.0,32.879529,-80.05911
 62549,Aricept,0,0,N/A,Donepezil Hcl,1651,524.91,0.32,0.0,39.777116,-88.87171
@@ -7793,7 +7793,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 50310,Aricept,0,0,N/A,Donepezil Hcl,4055,1935.65,0.48,0.0,41.625988,-93.67403
 94517,Aricept,0,0,N/A,Donepezil Hcl,1740,462.29,0.27,0.0,37.923523,-121.91172
 77410,Aricept,0,0,N/A,Donepezil Hcl,593,168.16,0.28,0.0,29.83399,-95.434241
-00605,Aricept,360,5841.48,16.23,Donepezil Hcl,80377,32649.11,0.41,0.004459,18.465162,-67.141486
+00605,Aricept,360,5841.48,16.23,Donepezil Hcl,80377,32649.11,0.41,0.445892,18.465162,-67.141486
 35226,Aricept,0,0,N/A,Donepezil Hcl,6274,1183.24,0.19,0.0,33.406409,-86.8295
 02189,Aricept,0,0,N/A,Donepezil Hcl,22793,5058.31,0.22,0.0,42.2112,-70.93111
 56671,Aricept,0,0,N/A,Donepezil Hcl,308,61.24,0.2,0.0,47.871135,-95.14362
@@ -8164,7 +8164,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 38804,Aricept,0,0,N/A,Donepezil Hcl,33033,7694.47,0.23,0.0,34.272374,-88.6822
 07071,Aricept,0,0,N/A,Donepezil Hcl,12386,3466.33,0.28,0.0,40.808416,-74.12111
 48342,Aricept,0,0,N/A,Donepezil Hcl,31357,19849.12,0.63,0.0,42.644581,-83.28211
-00909,Aricept,360,5561.4,15.45,Donepezil Hcl,31279,7853.26,0.25,0.011378,18.442282,-66.06764
+00909,Aricept,360,5561.4,15.45,Donepezil Hcl,31279,7853.26,0.25,1.137836,18.442282,-66.06764
 03055,Aricept,0,0,N/A,Donepezil Hcl,3698,683.04,0.18,0.0,42.831686,-71.66743
 68005,Aricept,0,0,N/A,Donepezil Hcl,7230,2674.86,0.37,0.0,41.146848,-95.90796
 07430,Aricept,0,0,N/A,Donepezil Hcl,30925,14464.53,0.47,0.0,41.077102,-74.16147
@@ -8794,7 +8794,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 05468,Aricept,0,0,N/A,Donepezil Hcl,1735,462.18,0.27,0.0,44.641974,-73.13469
 93021,Aricept,0,0,N/A,Donepezil Hcl,6578,1864.33,0.28,0.0,34.292898,-118.87134
 58324,Aricept,0,0,N/A,Donepezil Hcl,1470,427.64,0.29,0.0,48.485321,-99.2076
-29532,Aricept,1230,21557.03,17.53,Donepezil Hcl,2099,360.69,0.17,0.36948,34.291269,-79.8761
+29532,Aricept,1230,21557.03,17.53,Donepezil Hcl,2099,360.69,0.17,36.948032,34.291269,-79.8761
 29611,Aricept,0,0,N/A,Donepezil Hcl,6117,1409.67,0.23,0.0,34.840717,-82.44234
 62656,Aricept,0,0,N/A,Donepezil Hcl,6894,3223.52,0.47,0.0,40.149927,-89.36746
 72921,Aricept,0,0,N/A,Donepezil Hcl,9653,3013.53,0.31,0.0,35.48891,-94.20897
@@ -9238,7 +9238,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 19602,Aricept,0,0,N/A,Donepezil Hcl,4874,949.3,0.19,0.0,40.329992,-75.91962
 98586,Aricept,0,0,N/A,Donepezil Hcl,5244,1276.89,0.24,0.0,46.560786,-123.85214
 34288,Aricept,0,0,N/A,Donepezil Hcl,3390,754.66,0.22,0.0,27.048707,-82.127196
-92081,Aricept,252,102.24,0.41,Donepezil Hcl,15980,5976.95,0.37,0.015525,N/A,N/A
+92081,Aricept,252,102.24,0.41,Donepezil Hcl,15980,5976.95,0.37,1.552489,N/A,N/A
 22203,Aricept,0,0,N/A,Donepezil Hcl,14602,8301.58,0.57,0.0,38.874979,-77.11455
 65337,Aricept,0,0,N/A,Donepezil Hcl,3334,582.53,0.17,0.0,38.780854,-93.4275
 99524,Aricept,0,0,N/A,Donepezil Hcl,688,176.59,0.26,0.0,61.108864,-149.440311
@@ -9355,7 +9355,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 96859,Aricept,0,0,N/A,Donepezil Hcl,1842,679.13,0.37,0.0,24.859832,-168.021815
 63050,Aricept,0,0,N/A,Donepezil Hcl,7357,3439.99,0.47,0.0,38.259946,-90.5666
 93263,Aricept,0,0,N/A,Donepezil Hcl,11851,3924.21,0.33,0.0,35.490517,-119.26495
-92612,Aricept,360,6133.8,17.04,Donepezil Hcl,4679,1417.99,0.3,0.071443,33.650813,-117.81771
+92612,Aricept,360,6133.8,17.04,Donepezil Hcl,4679,1417.99,0.3,7.144275,33.650813,-117.81771
 98070,Aricept,0,0,N/A,Donepezil Hcl,1830,793.55,0.43,0.0,47.416198,-122.46821
 55044,Aricept,0,0,N/A,Donepezil Hcl,4309,1557.07,0.36,0.0,44.669564,-93.26654
 39342,Aricept,0,0,N/A,Donepezil Hcl,5827,1608.49,0.28,0.0,32.336743,-88.616297
@@ -9661,7 +9661,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 02760,Aricept,0,0,N/A,Donepezil Hcl,26081,10387.92,0.4,0.0,41.975495,-71.33086
 79414,Aricept,0,0,N/A,Donepezil Hcl,42403,7589.67,0.18,0.0,33.550335,-101.91661
 30321,Aricept,0,0,N/A,Donepezil Hcl,3216,428.09,0.13,0.0,33.844371,-84.47405
-08628,Aricept,330,5417.83,16.42,Donepezil Hcl,11820,2961.93,0.25,0.02716,40.264708,-74.82295
+08628,Aricept,330,5417.83,16.42,Donepezil Hcl,11820,2961.93,0.25,2.716049,40.264708,-74.82295
 98041,Aricept,0,0,N/A,Donepezil Hcl,10489,3937.66,0.38,0.0,47.432251,-121.803388
 58075,Aricept,0,0,N/A,Donepezil Hcl,16053,4083.86,0.25,0.0,46.28232,-96.68494
 67152,Aricept,0,0,N/A,Donepezil Hcl,25875,9359.63,0.36,0.0,37.268972,-97.41247
@@ -10383,7 +10383,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 12723,Aricept,0,0,N/A,Donepezil Hcl,5864,4115.29,0.7,0.0,41.769427,-75.02808
 26170,Aricept,0,0,N/A,Donepezil Hcl,990,316.2,0.32,0.0,39.370217,-81.17215
 74010,Aricept,0,0,N/A,Donepezil Hcl,5188,1104.33,0.21,0.0,35.843486,-96.38183
-00744,Aricept,390,6823.7,17.5,Donepezil Hcl,2400,1754.55,0.73,0.139785,18.206329,-65.743058
+00744,Aricept,390,6823.7,17.5,Donepezil Hcl,2400,1754.55,0.73,13.978495,18.206329,-65.743058
 20601,Aricept,0,0,N/A,Donepezil Hcl,1748,763.78,0.44,0.0,38.634306,-76.86008
 02368,Aricept,0,0,N/A,Donepezil Hcl,20110,11332.08,0.56,0.0,42.173417,-71.04912
 77625,Aricept,0,0,N/A,Donepezil Hcl,1142,454.51,0.4,0.0,30.372553,-94.33671
@@ -14025,7 +14025,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 45223,Aricept,0,0,N/A,Donepezil Hcl,19595,13196.69,0.67,0.0,39.161859,-84.54259
 16373,Aricept,0,0,N/A,Donepezil Hcl,1080,825.34,0.76,0.0,41.195768,-79.70044
 49680,Aricept,0,0,N/A,Donepezil Hcl,608,163.37,0.27,0.0,44.654872,-85.26096
-77703,Aricept,840,20727.69,24.68,Donepezil Hcl,48004,13462.64,0.28,0.017198,30.112312,-94.11736
+77703,Aricept,840,20727.69,24.68,Donepezil Hcl,48004,13462.64,0.28,1.719761,30.112312,-94.11736
 70359,Aricept,0,0,N/A,Donepezil Hcl,36537,8224.03,0.23,0.0,29.696636,-90.77238
 07756,Aricept,0,0,N/A,Donepezil Hcl,2429,1302.52,0.54,0.0,40.211982,-74.00916
 34145,Aricept,0,0,N/A,Donepezil Hcl,1080,299.78,0.28,0.0,25.940112,-81.71329
@@ -14260,7 +14260,7 @@ zipcode,brnd_name,brnd_total_days,brnd_total_cost,brnd_avg_cost,gen_name,gen_tot
 58785,Aricept,0,0,N/A,Donepezil Hcl,1846,800.75,0.43,0.0,48.271451,-101.11174
 06035,Aricept,0,0,N/A,Donepezil Hcl,1685,275.35,0.16,0.0,41.959713,-72.79826
 93011,Aricept,0,0,N/A,Donepezil Hcl,1807,602.5,0.33,0.0,34.032383,-119.1343
-44822,Aricept,224,4122.88,18.41,Donepezil Hcl,2661,523.83,0.2,0.077643,40.561377,-82.41237
+44822,Aricept,224,4122.88,18.41,Donepezil Hcl,2661,523.83,0.2,7.764298,40.561377,-82.41237
 27508,Aricept,0,0,N/A,Donepezil Hcl,5110,934.53,0.18,0.0,35.954331,-78.25342
 70748,Aricept,0,0,N/A,Donepezil Hcl,2983,1176.06,0.39,0.0,30.826285,-91.22812
 29677,Aricept,0,0,N/A,Donepezil Hcl,1751,273.65,0.16,0.0,34.589662,-82.74935
