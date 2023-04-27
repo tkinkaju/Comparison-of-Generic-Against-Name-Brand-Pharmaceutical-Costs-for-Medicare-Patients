@@ -12,6 +12,8 @@ Down load the 'Full Replacement Monthly NPI File'
 Replace the user, password, host and database parameters below to connect to your database
 """
 import mysql.connector
+import json
+import os.path as path
 import csv
 
 def isCorrectNPIType(row):
@@ -26,8 +28,19 @@ def isCorrectNPIType(row):
 
     return (isDesiredType(taxomyCode1) or isDesiredType(taxomyCode2) or isDesiredType(taxomyCode3)) and countryCode == 'US'
 
+dbConfig = {}
+
+if not path.isfile('./src/dbConfig.json'):
+    print("Please copy the example dbConfig to ./src/dbConfig.json and put in your database settings")
+    exit(1)
+else:
+    dbConfig = json.load(open('./src/dbConfig.json'))
+    if not ('user' in dbConfig and 'password' in dbConfig and 'host' in dbConfig and 'database' in dbConfig):
+        print("Your configuration is missing some files, please see the example config file")
+        exit(1)
+
 try:
-    cnx = mysql.connector.connect(user='XXX', password='XXX', host='localhost', database='XXX')
+    cnx = mysql.connector.connect(user=dbConfig['user'], password=dbConfig['password'], host=dbConfig['host'], database=dbConfig['database'])
     cursor = cnx.cursor()
 
     query = "DROP TABLE IF EXISTS practice_NPI_location"

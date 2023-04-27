@@ -10,36 +10,48 @@ You only need the columns: 'Prscrbr_NPI', 'Prscrbr_State_Abrvtn', 'Prscrbr_State
 Replace the user, password, host and database parameters below to connect to your database
 """
 import mysql.connector
+import os.path as path
+import json
 import csv
 
-YEARS = range(2013, 2021)
+YEARS = range(2014, 2016)
 BASE_NAME = './MedicareDataSet/Medicare_Part_D_Prescribers_by_Provider_and_Drug_'
 
+def createIndex(cursor, name, column):
+    try:
+        query = f"CREATE INDEX {name} ON filtered_medicare_data_set ({column});"
+        cursor.execute(query)
+    except mysql.connector.Error as e:
+        print(f"could not create index {name}, likely already exists, moving on...")
+        
+
+dbConfig = {}
+
+if not path.isfile('./src/dbConfig.json'):
+    print("Please copy the example dbConfig to ./src/dbConfig.json and put in your database settings")
+    exit(1)
+else:
+    dbConfig = json.load(open('./src/dbConfig.json'))
+    if not ('user' in dbConfig and 'password' in dbConfig and 'host' in dbConfig and 'database' in dbConfig):
+        print("Your configuration is missing some files, please see the example config file")
+        exit(1)
+
 try:
-    cnx = mysql.connector.connect(user='XXX', password='XXX', host='localhost', database='XXX')
+    cnx = mysql.connector.connect(user=dbConfig['user'], password=dbConfig['password'], host=dbConfig['host'], database=dbConfig['database'])
     cursor = cnx.cursor()
 
     query = "CREATE TABLE IF NOT EXISTS filtered_medicare_data_set (npi char(10), state char(2), state_fips char(5), brand_name varchar(40), generic_name varchar(40), total_day_supply INT, total_drug_cost Float(24), year INT)"
     cursor.execute(query)
 
-    query = "CREATE INDEX IF NOT EXISTS idx_medicare_state ON filtered_medicare_data_set (state);"
-    cursor.execute(query)
-
-    query = "CREATE INDEX  IF NOT EXISTS idx_medicare_year ON filtered_medicare_data_set (year);"
-    cursor.execute(query)
-
-    query = "CREATE INDEX  IF NOT EXISTS idx_medicare_npi ON filtered_medicare_data_set (npi);"
-    cursor.execute(query)
-
-    query = "CREATE INDEX  IF NOT EXISTS idx_medicare_generic_name ON filtered_medicare_data_set (generic_name);"
-    cursor.execute(query)
-
-    query = "CREATE INDEX  IF NOT EXISTS idx_medicare_brand_name ON filtered_medicare_data_set (brand_name);"
-    cursor.execute(query)
+    createIndex(cursor, 'idx_medicare_state', 'state')
+    createIndex(cursor, 'idx_medicare_year', 'year')
+    createIndex(cursor, 'idx_medicare_npi', 'npi')
+    createIndex(cursor, 'idx_medicare_generic_name', 'generic_name')
+    createIndex(cursor, 'idx_medicare_brand_name', 'brand_name')
 
     count = 0
     for year in YEARS:
-        print(f'Year: {year}')
+        print(f'Doing Year: {year}')
         with open(f'{BASE_NAME}{year}.csv', newline='') as data:
             reader = csv.DictReader(data)
             baseQuery  = "INSERT INTO filtered_medicare_data_set (npi, state, state_fips, brand_name, generic_name, total_day_supply, total_drug_cost, year) VALUES  (%s, %s, %s, %s, %s, %s, %s, %s) "
@@ -49,8 +61,9 @@ try:
                     print(f'{count}')
                 cursor.execute(baseQuery, (row['Prscrbr_NPI'], row['Prscrbr_State_Abrvtn'], row['Prscrbr_State_FIPS'], row['Brnd_Name'],row['Gnrc_Name'], row['Tot_Day_Suply'], row['Tot_Drug_Cst'], year))
             
-    print('Commiting')
-    cnx.commit()
+        print(f'Commiting year {year}')
+        cnx.commit()
+
     print('Done')
     cursor.close()
     cnx.close()
