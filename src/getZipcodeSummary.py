@@ -135,7 +135,7 @@ with open('zipcode_summary.csv', newline='') as input_file:
 
         if drug_type not in drug_files:
             # drug_file = open(os.path.join(directory_path, drug_type + "_zipcodes_final.csv"), "w", newline='')
-            drug_file = open(os.path.join(directory_path, drug_type + "_zipcodes_final.js"), "w", newline='')
+            drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')
             writer_ = csv.DictWriter(drug_file,fieldnames=reader.fieldnames)
             drug_file.write("export default `")
             writer_.writeheader()

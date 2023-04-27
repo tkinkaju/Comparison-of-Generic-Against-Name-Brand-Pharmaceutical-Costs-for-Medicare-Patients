@@ -4,3 +4,13 @@
 *MedicareDataSet/Medicare_Part_D_Prescribers_by_Provider_and_Drug*
 /src/Pages/MapBoxToken.js
 /node_modules
+/map source data/**.csv
+/map source data/2013/**.csv
+/map source data/2014/**.csv
+/map source data/2015/**.csv
+/map source data/2016/**.csv
+/map source data/2017/**.csv
+/map source data/2018/**.csv
+/map source data/2019/**.csv
+/map source data/2020/**.csv
+/**.csv

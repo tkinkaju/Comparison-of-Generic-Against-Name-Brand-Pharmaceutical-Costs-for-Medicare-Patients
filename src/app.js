@@ -25,27 +25,23 @@ import window from 'global/window';
 import {connect} from 'react-redux';
 
 import {theme} from '@kepler.gl/styles';
-import Banner from './components/banner';
-import Announcement, {FormLink} from './components/announcement';
 import {replaceLoadDataModal} from './factories/load-data-modal';
 import {replaceMapControl} from './factories/map-control';
 import {replacePanelHeader} from './factories/panel-header';
-import {AUTH_TOKENS, DEFAULT_FEATURE_FLAGS} from './constants/default-settings';
+import {DEFAULT_FEATURE_FLAGS} from './constants/default-settings';
 import {messages} from './constants/localization';
 import sertralineData from './../map source data/2020/statesSummaries/Sertraline Hcl'
-// import { config } from './Pages/KeplerConfig';
-import config from './Pages/KeplerConfig2'
+import { configStates} from './Pages/KeplerConfigStates'
+// import { configZipCodes } from './Pages/KeplerConfigZipCode';
 import SelectYear from './components/customSelectYear';
 import SelectScale from './components/customSelectScale'
 import SelectDrug from './components/customSelectDrug'
 import ButtonSearch from './components/customButton'
-import {processCsvData, processGeojson} from '@kepler.gl/processors';
+import {processCsvData} from '@kepler.gl/processors';
 import routedData from './Pages/DataRouting'
 import mapBoxToken from './Pages/MapBoxToken'
 
 import {
-  loadRemoteMap,
-  loadSampleConfigurations,
   onExportFileSuccess,
   onLoadCloudMapSuccess
 } from './actions';
@@ -62,7 +58,6 @@ const KeplerGl = require('@kepler.gl/components').injectComponents([
 var year = 2020;
 var scale = "statesSummaries";
 var drug = "Sertraline Hcl";
-var globalProps = null;
 export function updateYear(newYear){
   year = newYear
 }
@@ -76,13 +71,18 @@ export function updateDrug(newDrug){
 function updateMapAtStart(props){
   const processedData = processCsvData(sertralineData)
   const dataset = { info: { label: "Ratio of Name Brand", id: "population_data" }, data: processedData };
-  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset, config})))
+  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset,config:configStates})))
 } 
 
 export async function updateMap(props){
   const processedData = await routedData(year, drug, scale)
   const dataset = { info: { label: "Ratio of Name Brand", id: "population_data" }, data: processedData };
-  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset, config})))
+  if(scale=="zipcodeSummaries"){
+    props.dispatch(wrapTo("map", addDataToMap({datasets:dataset,config:configStates})))
+  }
+  else{
+    props.dispatch(wrapTo("map", addDataToMap({datasets:dataset,config:configStates})))
+  }
 }
 
 const keplerGlGetState = state => state.demo.keplerGl;
