@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import styled, {ThemeProvider} from 'styled-components';
 import window from 'global/window';
@@ -32,9 +32,16 @@ import {replaceMapControl} from './factories/map-control';
 import {replacePanelHeader} from './factories/panel-header';
 import {AUTH_TOKENS, DEFAULT_FEATURE_FLAGS} from './constants/default-settings';
 import {messages} from './constants/localization';
-import {mockData} from './Pages/mockData'
-import { config } from './Pages/KeplerConfig';
+import sertralineData from './../map source data/2020/statesSummaries/Sertraline Hcl'
+// import { config } from './Pages/KeplerConfig';
+import config from './Pages/KeplerConfig2'
 import {mapBoxToken} from './Pages/MapBoxToken';
+import SelectYear from './components/customSelectYear';
+import SelectScale from './components/customSelectScale'
+import SelectDrug from './components/customSelectDrug'
+import ButtonSearch from './components/customButton'
+import {processCsvData, processGeojson} from '@kepler.gl/processors';
+import routedData from './Pages/DataRouting'
 
 import {
   loadRemoteMap,
@@ -46,18 +53,37 @@ import {
 import {loadCloudMap, addDataToMap, addNotification, replaceDataInMap, wrapTo} from '@kepler.gl/actions';
 import {CLOUD_PROVIDERS} from './cloud-providers';
 
-const fs = require("fs");
-
 const KeplerGl = require('@kepler.gl/components').injectComponents([
   replaceLoadDataModal(),
   replaceMapControl(),
   replacePanelHeader()
 ]);
 
+var year = 2020;
+var scale = "statesSummaries";
+var drug = "Sertraline Hcl";
+var globalProps = null;
+export function updateYear(newYear){
+  year = newYear
+}
+export function updateScale(newScale){
+  scale = newScale
+}
+export function updateDrug(newDrug){
+  drug = newDrug
+}
 
+function updateMapAtStart(props){
+  const processedData = processCsvData(sertralineData)
+  const dataset = { info: { label: "Ratio of Name Brand", id: "population_data" }, data: processedData };
+  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset, config})))
+} 
 
-import {processCsvData, processGeojson} from '@kepler.gl/processors';
-/* eslint-enable no-unused-vars */
+export async function updateMap(props){
+  const processedData = await routedData(year, drug, scale)
+  const dataset = { info: { label: "Ratio of Name Brand", id: "population_data" }, data: processedData };
+  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset, config})))
+}
 
 const keplerGlGetState = state => state.demo.keplerGl;
 
@@ -90,12 +116,6 @@ const GlobalStyle = styled.div`
   }
 `;
 
-function updateMap(props){
-  const processedData = processCsvData(mockData)
-  const dataset = { info: { label: "Providers per Population", id: "population_data" }, data: processedData };
-  props.dispatch(wrapTo("map", addDataToMap({datasets:dataset, config})))
-  console.log("during")
-} 
 
 class App extends Component {
   state = {
@@ -105,9 +125,10 @@ class App extends Component {
   };
 
   componentDidMount(){
-    updateMap(this.props)
+    updateMapAtStart(this.props)
   }
 
+ 
 
   render() {
     return (
@@ -149,7 +170,10 @@ class App extends Component {
                 />
               )}
             </AutoSizer>
+            <div style={{ backgroundColor: 'white', width: 130, height:260, position: 'absolute', zIndex: 100, bottom: 10, right: 10}}><SelectYear/><SelectScale/><SelectDrug/><ButtonSearch props={this.props}/></div>
+            <div style={{ backgroundColor: 'white', width: 500, height:60, position: 'absolute', zIndex: 100, top: 20, right: 60, alignItems:"center"}}><p>  Year: {year}   Scale: {scale}   Drug: {drug}</p></div>
           </div>
+          
         </GlobalStyle>
       </ThemeProvider>
     );

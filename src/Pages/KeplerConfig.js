@@ -1,11 +1,11 @@
 export const config = {
     version: "v1",
         visState: {
-            filters: [],
             layers: [
                 {
                     id: "n8kun5",
                     type: "geojson",
+                    name: "percent_brand",
                     config: {
                         dataId: "percent_brand",
                         label: "percent_brand",
@@ -21,7 +21,7 @@ export const config = {
                             255
                         ],
                         columns: {
-                            geojson: "geometry",
+                            geojson: "geojson",
                         },
                         isVisible: true,
                         visConfig: {
@@ -77,7 +77,7 @@ export const config = {
                             "stroked": true,
                             "filled": true,
                             "enable3d": false,
-                            "wireframe": false
+                            "wireframe": false,
                         },
                         hidden: false,
                         textLabel: [
@@ -100,7 +100,7 @@ export const config = {
                     },
                     visualChannels: {
                         colorField: {
-                            name: "perthousand",
+                            name: "percent_brand",
                             type: "real"
                         },
                         colorScale: "quantile",

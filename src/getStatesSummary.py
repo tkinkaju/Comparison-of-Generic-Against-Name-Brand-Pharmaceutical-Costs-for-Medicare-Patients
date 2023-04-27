@@ -114,8 +114,9 @@ with open('states_summary.csv', newline='') as input_file:
             print(directory_path)
             if not os.path.exists(directory_path):
                 os.makedirs(directory_path)
-
-            drug_file = open(os.path.join(directory_path, drug_type + "_states_final.csv"), "w", newline='')
+            # drug_file = open(os.path.join(directory_path, drug_type + "_states_final.csv"), "w", newline='') 
+            drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')
+            drug_file.write("export default `")
             writer = csv.DictWriter(drug_file, fieldnames=reader.fieldnames)
             writer.writeheader()
             drug_files[drug_type] = (drug_file, writer)
@@ -124,4 +125,5 @@ with open('states_summary.csv', newline='') as input_file:
         writer.writerow(row)
 
     for drug_file, writer in drug_files.values():
+        drug_file.write("`;")
         drug_file.close()
