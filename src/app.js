@@ -35,13 +35,13 @@ import {messages} from './constants/localization';
 import sertralineData from './../map source data/2020/statesSummaries/Sertraline Hcl'
 // import { config } from './Pages/KeplerConfig';
 import config from './Pages/KeplerConfig2'
-import {mapBoxToken} from './Pages/MapBoxToken';
 import SelectYear from './components/customSelectYear';
 import SelectScale from './components/customSelectScale'
 import SelectDrug from './components/customSelectDrug'
 import ButtonSearch from './components/customButton'
 import {processCsvData, processGeojson} from '@kepler.gl/processors';
 import routedData from './Pages/DataRouting'
+import mapBoxToken from './Pages/MapBoxToken'
 
 import {
   loadRemoteMap,
