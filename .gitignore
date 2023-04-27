@@ -3,6 +3,7 @@
 /log files
 /src/Pages/MapBoxToken.js
 /node_modules
+node_modules
 /map source data/**.csv
 /map source data/2013/**.csv
 /map source data/2014/**.csv
