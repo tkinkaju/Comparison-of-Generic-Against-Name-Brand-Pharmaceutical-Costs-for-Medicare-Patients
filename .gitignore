@@ -1,7 +1,6 @@
 # large raw data files
 /input data files
 /log files
-*MedicareDataSet/Medicare_Part_D_Prescribers_by_Provider_and_Drug*
 /src/Pages/MapBoxToken.js
 /node_modules
 /map source data/**.csv
@@ -14,3 +13,8 @@
 /map source data/2019/**.csv
 /map source data/2020/**.csv
 /**.csv
+/MedicareDataSet
+/NpiDataSet
+/zipcode_summary.csv
+/states_summary.csv
+/src/dbConfig.json
