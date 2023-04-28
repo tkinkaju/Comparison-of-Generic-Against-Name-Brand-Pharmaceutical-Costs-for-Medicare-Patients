@@ -1,6 +1,8 @@
 import csv
 import os
 
+YEARS = ["2020","2019","2018","2017","2016","2015","2014","2013"]
+
 DRUG_FILE_NAMES = [ 'Adalimumab.csv', 'Atorvastatin Calcium.csv', 'Donepezil Hcl.csv',
                     'Etanercept.csv', 'Sertraline Hcl.csv', 'Vortioxetine Hydrobromide.csv', 'Zolpidem Tartrate.csv']
 
@@ -16,6 +18,7 @@ STATES = [ 'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
            'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
            'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY' ]
            '''
+
 
 ZIP_CODE_MAP = {}
 
@@ -69,81 +72,81 @@ class DrugSummary():
     def percentBrand(self):
         return  round(self.brandTotalDays / (self.brandTotalDays + self.genericTotalDays) * 100.0, 6) if (self.brandTotalDays + self.genericTotalDays) > 0 else 'N/A'
 
-zipCodeData = {}
+for YEAR in YEARS:
+    zipCodeData = {}
 
-csv_file_path = './src/zipCodeProcessing/US_ZIP_codes_to_longitude_and_latitude.csv'
-
-
-with open("zipcode_summary.csv", "w", newline="") as output_file:
-    writer_ = csv.writer(output_file)
-    writer_.writerow(['zipcode', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand','lat', 'lon'])
-
-    drugIter = 0
-    for drug_file_name in DRUG_FILE_NAMES:   # run through each drug file
-        with open(f"map source data/2020/{drug_file_name}", "r") as file:
-            reader = csv.reader(file)
-            col = next(reader)
-
-            brandName = BRAND_NAMES[drugIter]
-            genericName = GENERIC_NAMES[drugIter]
-            daySup = col.index('totl_day_sply')
-            dayCst = col.index('totl_drg_cost')
-            brdName = col.index('brnd_name')
-            zipCol = col.index('zip_code')
-            for row in reader:
-                code = row[zipCol]
-                if not code in zipCodeData:
-                    zipCodeData[code] = ZipCodeSummary(code)
-                zipData = zipCodeData[code]
-                if not zipData.hasBrand(brandName):
-                    zipData.drugs += [DrugSummary(brandName, genericName)]
-
-                drugSummary = zipData.getSummary(brandName)
-
-                if brandName in row[brdName]:
-                    drugSummary.brandTotalDays += int(row[daySup])
-                    drugSummary.brandTotalCost += float(row[dayCst])
-                
-                if genericName in row[brdName]:
-                    drugSummary.genericTotalDays += int(row[daySup])
-                    drugSummary.genericTotalCost += float(row[dayCst])
-
-            drugIter += 1
-    
-    for zipData in zipCodeData.values():
-        lat = ZIP_CODE_MAP[zipData.code]['lat'] if zipData.code in ZIP_CODE_MAP else 'N/A'
-        lon = ZIP_CODE_MAP[zipData.code]['lon'] if zipData.code in ZIP_CODE_MAP else 'N/A'
-        for summary in zipData.drugs:
-            writer_.writerow([zipData.code, summary.brandName, summary.brandTotalDays, round(summary.brandTotalCost, 2),
-                                summary.brandAvgCost(), summary.genericName, summary.genericTotalDays, 
-                                round(summary.genericTotalCost, 2), summary.genericAvgCost(), summary.percentBrand(), lat, lon])
+    csv_file_path = './src/zipCodeProcessing/US_ZIP_codes_to_longitude_and_latitude.csv'
 
 
+    with open("zipcode_summary.csv", "w", newline="") as output_file:
+        writer_ = csv.writer(output_file)
+        writer_.writerow(['zipcode', 'brnd_name', 'brnd_total_days', 'brnd_total_cost', 'brnd_avg_cost', 'gen_name', 'gen_total_day', 'gen_total_cost', 'gen_avg_cost', 'percent_brand','lat', 'lon'])
 
-#Creating individual csv's for each drug type(As of now just for 2020)
-YEAR = "2020"
-with open('zipcode_summary.csv', newline='') as input_file:
-    reader = csv.DictReader(input_file)
-    drug_files = {}
+        drugIter = 0
+        for drug_file_name in DRUG_FILE_NAMES:   # run through each drug file
+            with open(f"map source data/{YEAR}/{drug_file_name}", "r") as file:
+                reader = csv.reader(file)
+                col = next(reader)
 
-    directory_path = './map source data/2020/zipcodeSummaries'
-    if not os.path.exists(directory_path):
-        os.makedirs(directory_path)
+                brandName = BRAND_NAMES[drugIter]
+                genericName = GENERIC_NAMES[drugIter]
+                daySup = col.index('totl_day_sply')
+                dayCst = col.index('totl_drg_cost')
+                brdName = col.index('brnd_name')
+                zipCol = col.index('zip_code')
+                for row in reader:
+                    code = row[zipCol]
+                    if not code in zipCodeData:
+                        zipCodeData[code] = ZipCodeSummary(code)
+                    zipData = zipCodeData[code]
+                    if not zipData.hasBrand(brandName):
+                        zipData.drugs += [DrugSummary(brandName, genericName)]
 
-    for row in reader:
-        drug_type = row['gen_name']
+                    drugSummary = zipData.getSummary(brandName)
 
-        if drug_type not in drug_files:
-            # drug_file = open(os.path.join(directory_path, drug_type + "_zipcodes_final.csv"), "w", newline='')
-            drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')
-            writer_ = csv.DictWriter(drug_file,fieldnames=reader.fieldnames)
-            drug_file.write("export default `")
-            writer_.writeheader()
-            drug_files[drug_type] = (drug_file, writer_)
+                    if brandName in row[brdName]:
+                        drugSummary.brandTotalDays += int(row[daySup])
+                        drugSummary.brandTotalCost += float(row[dayCst])
+                    
+                    if genericName in row[brdName]:
+                        drugSummary.genericTotalDays += int(row[daySup])
+                        drugSummary.genericTotalCost += float(row[dayCst])
 
-        drug_file, writer = drug_files[drug_type]
-        writer.writerow(row)
+                drugIter += 1
+        
+        for zipData in zipCodeData.values():
+            lat = ZIP_CODE_MAP[zipData.code]['lat'] if zipData.code in ZIP_CODE_MAP else 'N/A'
+            lon = ZIP_CODE_MAP[zipData.code]['lon'] if zipData.code in ZIP_CODE_MAP else 'N/A'
+            for summary in zipData.drugs:
+                writer_.writerow([zipData.code, summary.brandName, summary.brandTotalDays, round(summary.brandTotalCost, 2),
+                                    summary.brandAvgCost(), summary.genericName, summary.genericTotalDays, 
+                                    round(summary.genericTotalCost, 2), summary.genericAvgCost(), summary.percentBrand(), lat, lon])
 
-    for drug_file, writer in drug_files.values():
-        drug_file.write("`;")
-        drug_file.close()
+
+
+    #Creating individual csv's for each drug type(As of now just for 2020)
+    with open('zipcode_summary.csv', newline='') as input_file:
+        reader = csv.DictReader(input_file)
+        drug_files = {}
+
+        directory_path = './map source data/'+YEAR+'/zipcodeSummaries'
+        if not os.path.exists(directory_path):
+            os.makedirs(directory_path)
+
+        for row in reader:
+            drug_type = row['gen_name']
+
+            if drug_type not in drug_files:
+                # drug_file = open(os.path.join(directory_path, drug_type + "_zipcodes_final.csv"), "w", newline='')
+                drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')
+                writer_ = csv.DictWriter(drug_file,fieldnames=reader.fieldnames)
+                drug_file.write("export default `")
+                writer_.writeheader()
+                drug_files[drug_type] = (drug_file, writer_)
+
+            drug_file, writer = drug_files[drug_type]
+            writer.writerow(row)
+
+        for drug_file, writer in drug_files.values():
+            drug_file.write("`;")
+            drug_file.close()

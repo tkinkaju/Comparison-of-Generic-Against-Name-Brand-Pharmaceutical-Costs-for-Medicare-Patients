@@ -170,7 +170,7 @@ class App extends Component {
                 />
               )}
             </AutoSizer>
-            <div style={{ backgroundColor: 'white', width: 130, height:260, position: 'absolute', zIndex: 100, bottom: 10, right: 10}}><SelectYear/><SelectScale/><SelectDrug/><ButtonSearch props={this.props}/></div>
+            <div style={{ backgroundColor: 'gray', width: 130, height:260, position: 'absolute', zIndex: 100, bottom: 10, right: 10}}><SelectYear/><SelectScale/><SelectDrug/><ButtonSearch props={this.props}/></div>
             <div style={{ backgroundColor: 'white', width: 500, height:60, position: 'absolute', zIndex: 100, top: 20, right: 60, alignItems:"center"}}><p>  Year: {year}   Scale: {scale}   Drug: {drug}</p></div>
           </div>
           
