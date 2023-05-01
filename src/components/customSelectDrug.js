@@ -38,7 +38,7 @@ export default function SimpleSelect() {
           fullWidth={true}
         >
           <MenuItem value={"Adalimumab"}>Adalimumab</MenuItem>
-          <MenuItem value={"Atorvastatin Calcium"}>Astorvastatin Calcium</MenuItem>
+          <MenuItem value={"Atorvastatin Calcium"}>Atorvastatin Calcium</MenuItem>
           <MenuItem value={"Donepezil Hcl"}>Donepezil Hcl</MenuItem>
           <MenuItem value={"Etanercept"}>Etanercept</MenuItem>
           <MenuItem value={"Sertraline Hcl"}>Sertraline Hcl</MenuItem>

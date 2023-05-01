@@ -138,9 +138,9 @@ for YEAR in YEARS:
 
             if drug_type not in drug_files:
                 # drug_file = open(os.path.join(directory_path, drug_type + "_zipcodes_final.csv"), "w", newline='')
-                drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')
+                drug_file = open(os.path.join(directory_path, drug_type + ".js"), "w", newline='')#comment out if you want a csv
                 writer_ = csv.DictWriter(drug_file,fieldnames=reader.fieldnames)
-                drug_file.write("export default `")
+                drug_file.write("export default `")#comment out if you want a csv
                 writer_.writeheader()
                 drug_files[drug_type] = (drug_file, writer_)
 
@@ -148,5 +148,5 @@ for YEAR in YEARS:
             writer.writerow(row)
 
         for drug_file, writer in drug_files.values():
-            drug_file.write("`;")
+            drug_file.write("`;")#comment out if you want a csv
             drug_file.close()
